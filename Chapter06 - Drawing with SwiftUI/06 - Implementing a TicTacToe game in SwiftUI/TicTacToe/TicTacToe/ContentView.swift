@@ -38,26 +38,35 @@ struct Cross: View {
 }
 
 struct Cell: View {
-    @State private var isVisible = false
-    @State private var isNought = false
+    enum CellType {
+        case hidden
+        case nought
+        case cross
+    }
+    @State private var type: CellType = .hidden
     @Binding var isNextNought: Bool
     
-    var body: some View {
-        ZStack {
+    @ViewBuilder
+    private var content: some View {
+        switch type {
+        case .hidden:
+            Color.clear
+        case .nought:
             Nought()
-                .opacity((isVisible && isNought) ? 1 : 0)
+        case .cross:
             Cross()
-                .opacity((isVisible && !isNought) ? 1 : 0)
-            
         }
+    }
+    
+    var body: some View {
+       content
         .padding(20)
         .contentShape(Rectangle())
         .onTapGesture {
-            guard !isVisible else {
+            guard type == .hidden else {
                 return
             }
-            isVisible = true
-            isNought = isNextNought
+            type = isNextNought ? .nought : .cross
             isNextNought.toggle()
         }
     }
