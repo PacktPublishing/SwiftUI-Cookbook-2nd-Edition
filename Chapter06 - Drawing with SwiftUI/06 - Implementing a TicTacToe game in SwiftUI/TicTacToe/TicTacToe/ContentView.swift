@@ -119,7 +119,7 @@ struct Grid: View {
     var body: some View {
         ZStack {
             GridShape()
-                .stroke(.blue, lineWidth: 15)
+                .stroke(.indigo, lineWidth: 15)
             VStack {
                 Row(isNextNought: $isNextNought)
                 Row(isNextNought: $isNextNought)

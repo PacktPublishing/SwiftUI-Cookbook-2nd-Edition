@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE3AEFF0268EFF2100CA80A0 /* ProgressRingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEFEF268EFF2100CA80A0 /* ProgressRingsApp.swift */; };
-		EE3AEFF2268EFF2100CA80A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AEFF1268EFF2100CA80A0 /* ContentView.swift */; };
-		EE3AEFF4268EFF2200CA80A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEFF3268EFF2200CA80A0 /* Assets.xcassets */; };
-		EE3AEFF7268EFF2200CA80A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AEFF6268EFF2200CA80A0 /* Preview Assets.xcassets */; };
+		EE3AF058268F851500CA80A0 /* PieChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AF057268F851500CA80A0 /* PieChartApp.swift */; };
+		EE3AF05A268F851500CA80A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3AF059268F851500CA80A0 /* ContentView.swift */; };
+		EE3AF05C268F851700CA80A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AF05B268F851700CA80A0 /* Assets.xcassets */; };
+		EE3AF05F268F851700CA80A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3AF05E268F851700CA80A0 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE3AEFEC268EFF2100CA80A0 /* ProgressRings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProgressRings.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE3AEFEF268EFF2100CA80A0 /* ProgressRingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressRingsApp.swift; sourceTree = "<group>"; };
-		EE3AEFF1268EFF2100CA80A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE3AEFF3268EFF2200CA80A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE3AEFF6268EFF2200CA80A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE3AF054268F851500CA80A0 /* PieChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PieChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3AF057268F851500CA80A0 /* PieChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartApp.swift; sourceTree = "<group>"; };
+		EE3AF059268F851500CA80A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE3AF05B268F851700CA80A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3AF05E268F851700CA80A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE3AEFE9268EFF2100CA80A0 /* Frameworks */ = {
+		EE3AF051268F851500CA80A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE3AEFE3268EFF2100CA80A0 = {
+		EE3AF04B268F851500CA80A0 = {
 			isa = PBXGroup;
 			children = (
-				EE3AEFEE268EFF2100CA80A0 /* ProgressRings */,
-				EE3AEFED268EFF2100CA80A0 /* Products */,
+				EE3AF056268F851500CA80A0 /* PieChart */,
+				EE3AF055268F851500CA80A0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE3AEFED268EFF2100CA80A0 /* Products */ = {
+		EE3AF055268F851500CA80A0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE3AEFEC268EFF2100CA80A0 /* ProgressRings.app */,
+				EE3AF054268F851500CA80A0 /* PieChart.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE3AEFEE268EFF2100CA80A0 /* ProgressRings */ = {
+		EE3AF056268F851500CA80A0 /* PieChart */ = {
 			isa = PBXGroup;
 			children = (
-				EE3AEFEF268EFF2100CA80A0 /* ProgressRingsApp.swift */,
-				EE3AEFF1268EFF2100CA80A0 /* ContentView.swift */,
-				EE3AEFF3268EFF2200CA80A0 /* Assets.xcassets */,
-				EE3AEFF5268EFF2200CA80A0 /* Preview Content */,
+				EE3AF057268F851500CA80A0 /* PieChartApp.swift */,
+				EE3AF059268F851500CA80A0 /* ContentView.swift */,
+				EE3AF05B268F851700CA80A0 /* Assets.xcassets */,
+				EE3AF05D268F851700CA80A0 /* Preview Content */,
 			);
-			path = ProgressRings;
+			path = PieChart;
 			sourceTree = "<group>";
 		};
-		EE3AEFF5268EFF2200CA80A0 /* Preview Content */ = {
+		EE3AF05D268F851700CA80A0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EE3AEFF6268EFF2200CA80A0 /* Preview Assets.xcassets */,
+				EE3AF05E268F851700CA80A0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE3AEFEB268EFF2100CA80A0 /* ProgressRings */ = {
+		EE3AF053268F851500CA80A0 /* PieChart */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE3AEFFA268EFF2200CA80A0 /* Build configuration list for PBXNativeTarget "ProgressRings" */;
+			buildConfigurationList = EE3AF062268F851700CA80A0 /* Build configuration list for PBXNativeTarget "PieChart" */;
 			buildPhases = (
-				EE3AEFE8268EFF2100CA80A0 /* Sources */,
-				EE3AEFE9268EFF2100CA80A0 /* Frameworks */,
-				EE3AEFEA268EFF2100CA80A0 /* Resources */,
+				EE3AF050268F851500CA80A0 /* Sources */,
+				EE3AF051268F851500CA80A0 /* Frameworks */,
+				EE3AF052268F851500CA80A0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ProgressRings;
-			productName = ProgressRings;
-			productReference = EE3AEFEC268EFF2100CA80A0 /* ProgressRings.app */;
+			name = PieChart;
+			productName = PieChart;
+			productReference = EE3AF054268F851500CA80A0 /* PieChart.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE3AEFE4268EFF2100CA80A0 /* Project object */ = {
+		EE3AF04C268F851500CA80A0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					EE3AEFEB268EFF2100CA80A0 = {
+					EE3AF053268F851500CA80A0 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = EE3AEFE7268EFF2100CA80A0 /* Build configuration list for PBXProject "ProgressRings" */;
+			buildConfigurationList = EE3AF04F268F851500CA80A0 /* Build configuration list for PBXProject "PieChart" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = EE3AEFE3268EFF2100CA80A0;
-			productRefGroup = EE3AEFED268EFF2100CA80A0 /* Products */;
+			mainGroup = EE3AF04B268F851500CA80A0;
+			productRefGroup = EE3AF055268F851500CA80A0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE3AEFEB268EFF2100CA80A0 /* ProgressRings */,
+				EE3AF053268F851500CA80A0 /* PieChart */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE3AEFEA268EFF2100CA80A0 /* Resources */ = {
+		EE3AF052268F851500CA80A0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3AEFF7268EFF2200CA80A0 /* Preview Assets.xcassets in Resources */,
-				EE3AEFF4268EFF2200CA80A0 /* Assets.xcassets in Resources */,
+				EE3AF05F268F851700CA80A0 /* Preview Assets.xcassets in Resources */,
+				EE3AF05C268F851700CA80A0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE3AEFE8268EFF2100CA80A0 /* Sources */ = {
+		EE3AF050268F851500CA80A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3AEFF2268EFF2100CA80A0 /* ContentView.swift in Sources */,
-				EE3AEFF0268EFF2100CA80A0 /* ProgressRingsApp.swift in Sources */,
+				EE3AF05A268F851500CA80A0 /* ContentView.swift in Sources */,
+				EE3AF058268F851500CA80A0 /* PieChartApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EE3AEFF8268EFF2200CA80A0 /* Debug */ = {
+		EE3AF060268F851700CA80A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +206,7 @@
 			};
 			name = Debug;
 		};
-		EE3AEFF9268EFF2200CA80A0 /* Release */ = {
+		EE3AF061268F851700CA80A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +261,14 @@
 			};
 			name = Release;
 		};
-		EE3AEFFB268EFF2200CA80A0 /* Debug */ = {
+		EE3AF063268F851700CA80A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressRings/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PieChart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,7 +282,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.ProgressRings;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.PieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +290,14 @@
 			};
 			name = Debug;
 		};
-		EE3AEFFC268EFF2200CA80A0 /* Release */ = {
+		EE3AF064268F851700CA80A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ProgressRings/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"PieChart/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,7 +311,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.ProgressRings;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.PieChart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +322,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE3AEFE7268EFF2100CA80A0 /* Build configuration list for PBXProject "ProgressRings" */ = {
+		EE3AF04F268F851500CA80A0 /* Build configuration list for PBXProject "PieChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE3AEFF8268EFF2200CA80A0 /* Debug */,
-				EE3AEFF9268EFF2200CA80A0 /* Release */,
+				EE3AF060268F851700CA80A0 /* Debug */,
+				EE3AF061268F851700CA80A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE3AEFFA268EFF2200CA80A0 /* Build configuration list for PBXNativeTarget "ProgressRings" */ = {
+		EE3AF062268F851700CA80A0 /* Build configuration list for PBXNativeTarget "PieChart" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE3AEFFB268EFF2200CA80A0 /* Debug */,
-				EE3AEFFC268EFF2200CA80A0 /* Release */,
+				EE3AF063268F851700CA80A0 /* Debug */,
+				EE3AF064268F851700CA80A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EE3AEFE4268EFF2100CA80A0 /* Project object */;
+	rootObject = EE3AF04C268F851500CA80A0 /* Project object */;
 }
