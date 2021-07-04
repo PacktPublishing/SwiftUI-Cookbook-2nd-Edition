@@ -31,7 +31,7 @@ struct ContentView: View {
                     .background(Color.green)
                     .opacity(0.8)
                 Spacer()
-                
+
                 Text("ZStack Item 2")
                     .padding()
                     .background(Color.green)
