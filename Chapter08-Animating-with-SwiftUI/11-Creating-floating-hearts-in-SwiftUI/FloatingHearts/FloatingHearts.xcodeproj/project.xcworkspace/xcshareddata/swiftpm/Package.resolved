@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SwiftCubicSpline",
+        "repositoryURL": "https://github.com/gscalzo/SwiftCubicSpline",
+        "state": {
+          "branch": null,
+          "revision": "a38eb0eb396d5b6b2be857f4a2ce44237865c3e7",
+          "version": "2.0.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
