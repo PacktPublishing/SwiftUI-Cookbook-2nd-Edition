@@ -16,10 +16,13 @@ struct ProgressRing: Shape {
     func path(in rect: CGRect) -> Path {
         Path() { path in
             path.addArc(
-                center: CGPoint(x: rect.midX, y: rect.midY),
+                center: CGPoint(x: rect.midX,
+                                y: rect.midY),
                 radius: rect.width / 2,
                 startAngle: startAngle,
-                endAngle: startAngle + Angle(radians: 2 * .pi * progress),
+                endAngle: startAngle +
+                Angle(
+                    radians: 2 * .pi * progress),
                 clockwise: false
             )
         }
@@ -77,9 +80,12 @@ struct ContentView: View {
                           progressInternal: $progressInternal)
                 .aspectRatio(contentMode: .fit)
             Spacer()
-            Slider(value: $progressInternal, in: 0...1, step: 0.01)
-            Slider(value: $progressCentral, in: 0...1, step: 0.01)
-            Slider(value: $progressExternal, in: 0...1, step: 0.01)
+            Slider(value: $progressInternal,
+                   in: 0...1, step: 0.01)
+            Slider(value: $progressCentral,
+                   in: 0...1, step: 0.01)
+            Slider(value: $progressExternal,
+                   in: 0...1, step: 0.01)
         }
         .padding(30)
     }
