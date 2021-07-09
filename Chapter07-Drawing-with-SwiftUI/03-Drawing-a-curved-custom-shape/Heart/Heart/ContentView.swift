@@ -65,7 +65,7 @@ struct Heart: Shape {
 struct ContentView: View {
     var body: some View {
         Heart()
-            .fill(Color.red)
+            .fill(.red)
             .overlay(Heart()
                 .stroke(.orange, lineWidth: 10))
             .aspectRatio(contentMode: .fit)

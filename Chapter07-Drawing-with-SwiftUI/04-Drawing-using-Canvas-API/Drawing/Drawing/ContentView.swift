@@ -21,7 +21,9 @@ struct ContentView: View {
                 path.addLines(line.points)
                 
                 ctx.stroke(path, with: .color(.red),
-                           style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
+                           style: StrokeStyle(lineWidth: 5,
+                                              lineCap: .round,
+                                              lineJoin: .round))
             }
         }
         .gesture(DragGesture(minimumDistance: 0,
