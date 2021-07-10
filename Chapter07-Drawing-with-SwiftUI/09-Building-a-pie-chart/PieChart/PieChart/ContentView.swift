@@ -18,20 +18,13 @@ enum Animal: String {
     
     var color: Color {
         switch self {
-        case .cat:
-            return .red
-        case .dog:
-            return .blue
-        case .fish:
-            return .green
-        case .horse:
-            return .orange
-        case .hamster:
-            return .purple
-        case .rabbit:
-            return .gray
-        case .bird:
-            return .yellow
+        case .cat: return .red
+        case .dog: return .blue
+        case .fish: return .green
+        case .horse: return .orange
+        case .hamster: return .purple
+        case .rabbit: return .gray
+        case .bird: return .yellow
         }
     }
 }
@@ -80,8 +73,8 @@ struct DataPoint: Identifiable {
     let label: String
     let value: Double
     let color: Color
-    var percentage: Double = 0
-    var startAngle: Double = 0
+    var percentage = 0.0
+    var startAngle = 0.0
     
     var formattedPercentage: String {
         String(format: "%.2f %%", percentage * 100)
@@ -93,7 +86,7 @@ struct DataPoints {
     
     mutating func add(value: Double, label: String, color: Color) {
         points.append(DataPoint(label: label, value: value, color: color))
-        let total = points.reduce(0.0) { $0 + $1.value }
+        let total = points.map(\.value).reduce(0.0,+)
         
         points = points.map {
             var point = $0
@@ -104,7 +97,7 @@ struct DataPoints {
         for i in 1..<points.count {
             let previous =  points[i - 1]
             let angle = previous.startAngle +
-                previous.value*360/total
+            previous.value*360/total
             var current = points[i]
             current.startAngle = angle
             points[i] = current
@@ -179,16 +172,16 @@ struct PieChart: View {
 }
 
 struct ContentView: View {
-    @State var dataSet: [DataPoints] = [
+    var dataSet: [DataPoints] = [
         DataSet.dublin.reduce(into: DataPoints()) {
-            $0.add(value: $1.value, label: $1.name, color: $1.color)
-        },
+        $0.add(value: $1.value, label: $1.name, color: $1.color)
+    },
         DataSet.milan.reduce(into: DataPoints()) {
-            $0.add(value: $1.value, label: $1.name, color: $1.color)
-        },
+        $0.add(value: $1.value, label: $1.name, color: $1.color)
+    },
         DataSet.london.reduce(into: DataPoints()) {
-            $0.add(value: $1.value, label: $1.name, color: $1.color)
-        },
+        $0.add(value: $1.value, label: $1.name, color: $1.color)
+    },
     ]
     
     @State var selectedCity = 0
@@ -200,11 +193,11 @@ struct ContentView: View {
             
             Picker(selection: self.$selectedCity,
                    label: Text("Most Popular Pets")) {
-                    Text("Dublin").tag(0)
-                    Text("Milan").tag(1)
-                    Text("London").tag(2)
+                Text("Dublin").tag(0)
+                Text("Milan").tag(1)
+                Text("London").tag(2)
             }
-            .pickerStyle(SegmentedPickerStyle())
+                   .pickerStyle(SegmentedPickerStyle())
             PieChart(dataPoints: dataSet[selectedCity])
                 .aspectRatio(1, contentMode: .fit)
             Spacer()
