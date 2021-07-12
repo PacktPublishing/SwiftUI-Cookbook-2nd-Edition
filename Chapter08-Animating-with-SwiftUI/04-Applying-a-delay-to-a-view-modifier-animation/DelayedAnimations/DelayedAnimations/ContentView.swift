@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    let duration = 1.0
     @State
     var change = false
     
@@ -15,24 +16,17 @@ struct ContentView: View {
         VStack(spacing: 30) {
             Rectangle()
                 .fill(.blue)
-            
                 .offset(y: change ? -300 : 0)
                 .animation(
-                    .easeInOut(duration: 1)
-                        .delay(0), value: change)
-            
+                    .easeInOut(duration: duration).delay(0), value: change)
                 .scaleEffect(change ? 0.5 : 1)
                 .animation(
-                    .easeInOut(duration: 1)
-                        .delay(1), value: change)
-            
+                    .easeInOut(duration: duration).delay(duration), value: change)
                 .rotation3DEffect(
                     change ? .degrees(45) : .degrees(0),
                     axis: (x: 1, y: 0, z: 0))
                 .animation(
-                    .easeInOut(duration: 1)
-                        .delay(2), value: change)
-            
+                    .easeInOut(duration: duration).delay(2*duration), value: change)
                 .frame(width: 200, height: 200)
             
             Button  {

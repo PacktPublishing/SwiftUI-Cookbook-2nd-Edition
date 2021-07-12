@@ -22,22 +22,22 @@ struct AnimationType {
 
 struct ContentView: View {
     @State
-    private var onTop = false
+    var onTop = false
     @State
-    private var type =
+    var type =
     AnimationType(name: "default", animation: .default)
     @State
-    private var showSelection = false
+    var showSelection = false
     
     var actionSheet: ActionSheet {
         ActionSheet(title: Text("Animations"),
                     buttons: AnimationType
                         .all
                         .map { type in
-                                .default(Text(type.name)) {
-                                    self.type = type
-                                }
-                        } +
+                        .default(Text(type.name)) {
+                            self.type = type
+                        }
+        } +
                     [ .destructive(Text("Cancel")) ]
         )
     }

@@ -6,7 +6,7 @@
 //
 import SwiftUI
 
-struct Banner: View {
+struct BannerView: View {
     let message: String
     var show: Bool
     
@@ -19,13 +19,14 @@ struct Banner: View {
             .background(Color.green)
             .cornerRadius(10)
             .offset(y: show ?
-                -UIScreen.main.bounds.height / 3 :
-                -UIScreen.main.bounds.height)
-            .animation(.interpolatingSpring(mass: 2.0,
-                                            stiffness: 100.0,
-                                            damping: 10,
-                                            initialVelocity: 0),
-                       value: show)
+                    -UIScreen.main.bounds.height / 3 :
+                        -UIScreen.main.bounds.height)
+            .animation(
+                .interpolatingSpring(mass: 2.0,
+                                     stiffness: 100.0,
+                                     damping: 10,
+                                     initialVelocity: 0),
+                value: show)
     }
 }
 
@@ -35,7 +36,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Banner(message: "Hello, World!", show: show)
+            BannerView(message: "Hello, World!", show: show)
             Button {
                 show.toggle()
             } label: {

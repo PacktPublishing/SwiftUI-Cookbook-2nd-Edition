@@ -10,7 +10,11 @@ struct Triangle: Shape {
     var multiplier: CGFloat
     var animatableData: CGFloat {
         get { multiplier }
-        set { multiplier = newValue }
+        set {
+            multiplier = newValue
+            print("value: \(multiplier)")
+        }
+        
     }
     
     func path(in rect: CGRect) -> Path {
@@ -21,7 +25,7 @@ struct Triangle: Shape {
                                      y: rect.maxY))
             path.addLine(to: CGPoint(x: rect.midX,
                                      y: rect.maxY
-                                        - multiplier * rect.width))
+                                     - multiplier * rect.width))
             path.closeSubpath()
         }
     }
@@ -39,7 +43,7 @@ struct ContentView: View {
                 withAnimation(.easeOut(duration: 1)) {
                     multiplier = .random(in: 0.3...1.5)
                 }
-        }
+            }
     }
 }
 

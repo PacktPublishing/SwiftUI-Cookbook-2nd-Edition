@@ -19,7 +19,7 @@ struct ContentView: View {
                 .cornerRadius(initialState ? 50 : 0)
                 .offset(y: initialState ? 0 : -200)
                 .rotation3DEffect(initialState ? .degrees(0)
-                    : .degrees(45),
+                                  : .degrees(45),
                                   axis: (x: 1, y: 0, z: 0))
                 .animation(.easeInOut(duration: 2), value: initialState)
                 .scaleEffect(initialState ? 1 : 0.8)

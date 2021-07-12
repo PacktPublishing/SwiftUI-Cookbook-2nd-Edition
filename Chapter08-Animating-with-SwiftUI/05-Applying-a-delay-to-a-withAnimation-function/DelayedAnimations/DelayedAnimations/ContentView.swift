@@ -22,6 +22,15 @@ struct CustomText: ViewModifier {
     }
 }
 
+extension Text {
+    func styled(color: Color) -> some View {
+        modifier(CustomText(foreground: .white,
+                            background: color,
+                            cornerRadius: 10))
+        
+    }
+}
+
 struct ContentView: View {
     @State var hideFirst = true
     @State var hideSecond = true
@@ -30,21 +39,15 @@ struct ContentView: View {
         VStack {
             VStack(spacing: 30) {
                 Text("First")
-                .modifier(CustomText(foreground: .white,
-                                     background: .red,
-                                     cornerRadius: 10))
+                    .styled(color: .red)
                     .opacity(hideFirst ? 0 : 1)
-            Text("Second")
-                .modifier(CustomText(foreground: .white,
-                                     background: .blue,
-                                     cornerRadius: 10))
-                .opacity(hideSecond ? 0 : 1)
-
-            Text("Third")
-                .modifier(CustomText(foreground: .white,
-                                     background: .yellow,
-                                     cornerRadius: 10))
-                .opacity(hideThird ? 0 : 1)
+                Text("Second")
+                    .styled(color: .blue)
+                    .opacity(hideSecond ? 0 : 1)
+                
+                Text("Third")
+                    .styled(color: .yellow)
+                    .opacity(hideThird ? 0 : 1)
             }
             
             Spacer()
@@ -61,9 +64,7 @@ struct ContentView: View {
             } label: {
                 Text("Animate")
                     .fontWeight(.heavy)
-                    .modifier(CustomText(foreground: .white,
-                                         background: .green,
-                                         cornerRadius: 5))
+                    .styled(color: .green)
             }
         }
     }
