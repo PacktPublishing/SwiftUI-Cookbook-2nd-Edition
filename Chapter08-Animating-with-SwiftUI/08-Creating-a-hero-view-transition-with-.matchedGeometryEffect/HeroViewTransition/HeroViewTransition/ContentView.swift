@@ -77,7 +77,7 @@ struct DestinationDetailView: View {
             }
             .padding(.trailing,10)
         }
-        .background(.white
+        .background(Color.white
                         .ignoresSafeArea(.all))
     }
 }
