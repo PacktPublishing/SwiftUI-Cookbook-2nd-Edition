@@ -12,12 +12,11 @@ struct LottieAnimation: UIViewRepresentable {
     private let animationView = AnimationView()
     var animationName = ""
     
-    @Binding
-    var play: Bool
+    @Binding var play: Bool
     
     func makeUIView(context: Context) -> UIView {
         let view = UIView()
-
+        
         animationView.animation = Animation.named(animationName)
         animationView.contentMode = .scaleAspectFit
         animationView.scalesLargeContentImage = true
@@ -25,9 +24,9 @@ struct LottieAnimation: UIViewRepresentable {
         
         view.addSubview(animationView)
         NSLayoutConstraint.activate([
-                    animationView.heightAnchor.constraint(equalTo: view.heightAnchor),
-                    animationView.widthAnchor.constraint(equalTo: view.widthAnchor)
-                ])
+            animationView.heightAnchor.constraint(equalTo: view.heightAnchor),
+            animationView.widthAnchor.constraint(equalTo: view.widthAnchor)
+        ])
         return view
     }
     
@@ -39,7 +38,6 @@ struct LottieAnimation: UIViewRepresentable {
         }
     }
 }
-
 
 struct ContentView: View {
     @State
