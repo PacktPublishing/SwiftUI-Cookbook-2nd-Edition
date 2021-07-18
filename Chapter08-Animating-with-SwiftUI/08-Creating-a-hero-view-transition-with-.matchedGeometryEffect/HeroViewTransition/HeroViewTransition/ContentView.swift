@@ -15,10 +15,8 @@ struct Item: Identifiable {
 }
 
 struct DestinationListView: View {
-    @Binding
-    var selectedItem: Item!
-    @Binding
-    var showDetail: Bool
+    @Binding var selectedItem: Item!
+    @Binding var showDetail: Bool
     let animation: Namespace.ID
 
     var body: some View {
@@ -46,9 +44,8 @@ struct DestinationListView: View {
 }
 
 struct DestinationDetailView: View {
-    var selectedItem: Item!
-    @Binding
-    var showDetail: Bool
+    var selectedItem: Item
+    @Binding var showDetail: Bool
     let animation: Namespace.ID
 
     var body: some View {
@@ -80,18 +77,15 @@ struct DestinationDetailView: View {
             }
             .padding(.trailing,10)
         }
-        .background(Color.white
+        .background(.white
                         .ignoresSafeArea(.all))
     }
 }
 
 struct ContentView: View {
-    @State
-    private var selectedItem: Item!
-    @State
-    private var showDetail = false
-    @Namespace
-    var animation
+    @State private var selectedItem: Item!
+    @State private var showDetail = false
+    @Namespace var animation
     var body: some View {
         ZStack {
             DestinationListView(selectedItem: $selectedItem,
