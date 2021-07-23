@@ -73,14 +73,14 @@ struct CardView: View {
             .gesture(
                 DragGesture()
                     .onChanged {
-                translation = $0.translation
-            }.onEnded {
-                if $0.percentage(in: geometry) > self.threshold {
-                    onRemove(user)
-                } else {
-                    translation = .zero
-                }
-            }
+                        translation = $0.translation
+                    }.onEnded {
+                        if $0.percentage(in: geometry) > self.threshold {
+                            onRemove(user)
+                        } else {
+                            translation = .zero
+                        }
+                    }
             )
         }
         
