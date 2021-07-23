@@ -21,12 +21,7 @@ struct ContentView: View {
             }.symbolVariant(.fill.circle)
                 .foregroundStyle(.yellow, .blue)
                 .font(.title)
-            HStack{
-                Image(systemName: "allergens")
-                Image(systemName: "ladybug")
-            }.symbolVariant(.fill)
-            .symbolRenderingMode(.multicolor)
-            .font(.largeTitle)
+            
             HStack{
                 Image(systemName: "b.circle.fill")
                 Image(systemName: "o.circle.fill")
@@ -38,6 +33,12 @@ struct ContentView: View {
             }.foregroundColor(.blue)
                 .font(.title)
                 .padding()
+            HStack{
+                Image(systemName: "allergens")
+                Image(systemName: "ladybug")
+            }.symbolVariant(.fill)
+            .symbolRenderingMode(.multicolor)
+            .font(.largeTitle)
             Toggle(isOn: $wifi_on) {
                 Label("Wifi", systemImage: "wifi")
             }.foregroundStyle(wifi_on ? .blue : .secondary)

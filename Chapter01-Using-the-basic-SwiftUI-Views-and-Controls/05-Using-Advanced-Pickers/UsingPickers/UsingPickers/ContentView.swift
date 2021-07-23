@@ -17,7 +17,7 @@ struct ContentView: View {
     var body: some View {
         Form{
             Section{
-                Picker(selection: $choice, label:Text("Transit Mode")){
+                Picker("Transit Modes", selection: $choice){
                     ForEach( 0 ..< transitModes.count) { index in
                         Text("\(self.transitModes[index])")
                     }
