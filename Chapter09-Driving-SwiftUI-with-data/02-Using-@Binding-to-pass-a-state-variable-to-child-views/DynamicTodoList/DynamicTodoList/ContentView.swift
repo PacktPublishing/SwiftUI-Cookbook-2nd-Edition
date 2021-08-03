@@ -7,16 +7,6 @@
 
 import SwiftUI
 
-struct CustomTextFieldStyle: TextFieldStyle {
-    func _body(configuration: TextField<Self._Label>) -> some View {
-        configuration
-            .padding(.horizontal, 8)
-            .autocapitalization(.none)
-            .frame(height: 40)
-            .background(.white)
-            .cornerRadius(5)
-    }
-}
 struct InputTodoView: View {
     @State
     private var newTodoDescription: String = ""
@@ -27,7 +17,7 @@ struct InputTodoView: View {
     var body: some View {
         HStack {
             TextField("Todo", text: $newTodoDescription)
-                .textFieldStyle(CustomTextFieldStyle())
+                .textFieldStyle(RoundedBorderTextFieldStyle())
             Spacer()
             Button {
                 guard !newTodoDescription.isEmpty else {
@@ -51,7 +41,6 @@ struct InputTodoView: View {
         .background(Color.gray)
     }
 }
-
 
 struct Todo: Identifiable {
     let id = UUID()
