@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var refreshedAt: Date? = nil
+    @State var refreshedAt: Date = Date()
     var body: some View {
         VStack(spacing:12) {
-            if let refreshedAt = self.refreshedAt {
-                Text(refreshedAt.formatted(date: .abbreviated, time: .standard) )
-            }
-        CounterView()
+            Text("Refresh at ") +
+            Text(refreshedAt.formatted(date: .omitted, time: .standard) )
+            CounterView()
             Button {
                 refreshedAt = Date()
             } label: {
@@ -23,14 +22,14 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .background(.blue)
             }
-
+            
         }
     }
 }
 
 struct CounterView: View {
-//    @ObservedObject var counter = Counter()
-    @StateObject var counter = Counter()
+    @ObservedObject var counter = Counter()
+    //    @StateObject var counter = Counter()
     var body: some View {
         VStack(spacing: 12) {
             Text("\(counter.value)")
@@ -51,7 +50,7 @@ struct CounterView: View {
                         .foregroundColor(.white)
                         .background(.green)
                 }
-
+                
             }
         }
     }
@@ -63,7 +62,7 @@ class Counter: ObservableObject {
     func inc() {
         value += 1
     }
-
+    
     func dec() {
         value -= 1
     }
