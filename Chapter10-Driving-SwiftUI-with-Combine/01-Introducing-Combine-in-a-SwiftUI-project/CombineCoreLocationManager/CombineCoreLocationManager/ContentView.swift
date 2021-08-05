@@ -60,8 +60,6 @@ class LocationViewModel: ObservableObject {
     @Published
     private var currentLocation: CLLocation?
     @Published
-    var isStartable = true
-    @Published
     var errorMessage = ""
     
     private let locationManager = LocationManager()
@@ -97,7 +95,6 @@ class LocationViewModel: ObservableObject {
     
     func startUpdating() {
         locationManager.start()
-        isStartable = false
     }
     
     private var cancellableSet: Set<AnyCancellable> = []
