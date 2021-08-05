@@ -73,7 +73,7 @@ extension Int {
 }
 
 struct ContentView: View {
-    @ObservedObject
+    @StateObject
     private var timer = StopWatchTimer()
     
     var body: some View {
