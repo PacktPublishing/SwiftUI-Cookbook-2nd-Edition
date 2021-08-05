@@ -129,9 +129,9 @@ class LocationViewModel: ObservableObject {
             return true
         }
         guard let lhr = lhs,
-            let rhr = rhs else {
-                return false
-        }
+              let rhr = rhs else {
+                  return false
+              }
         
         return lhr.distance(from: rhr) < 1
     }
@@ -154,38 +154,24 @@ extension Optional where Wrapped == CLLocation {
 }
 
 struct ContentView: View {
-    @ObservedObject
+    @StateObject
     var locationViewModel = LocationViewModel()
     
     var body: some View {
-        VStack(spacing: 24) {
-            VStack(spacing: 8) {
-                if locationViewModel.thereIsAnError {
-                    Text("Location Service terminated with error: \(locationViewModel.errorMessage)")
-                } else {
-                    Text("Status: \(locationViewModel.statusDescription)")
-                    HStack {
-                        Text("Latitude: \(locationViewModel.latitude)")
-                        Text("Longitude: \(locationViewModel.longitude)")
-                    }
-                }
-            }
-            .padding(.horizontal, 24)
-            
-            if locationViewModel.isStartable {
-                Button {
-                    locationViewModel.startUpdating()
-                } label: {
-                    Text("Start location updating")
-                        .foregroundColor(.white)
-                        .padding(.horizontal, 24)
-                        .padding(.vertical, 16)
-                        .background(Color.green)
-                        .cornerRadius(5)
-                }
+        Group {
+            if locationViewModel.thereIsAnError {
+                Text("Location Service terminated with error: \(locationViewModel.errorMessage)")
             } else {
-                /*@START_MENU_TOKEN@*/EmptyView()/*@END_MENU_TOKEN@*/
+                Text("Status: \(locationViewModel.statusDescription)")
+                HStack {
+                    Text("Latitude: \(locationViewModel.latitude)")
+                    Text("Longitude: \(locationViewModel.longitude)")
+                }
             }
+        }
+        .padding(.horizontal, 24)
+        .task {
+            locationViewModel.startUpdating()
         }
     }
 }
