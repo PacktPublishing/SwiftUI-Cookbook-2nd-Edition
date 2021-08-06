@@ -51,11 +51,11 @@ class WeatherService: ObservableObject {
     @Published
     var forecast: [Weather] = []
     
-    private let apiKey = "a650aa02322b6f958fcf44bb1d24c894"
-    //    private let apiKey = <INSERT YOUR KEY>
+    private let apiKey = <INSERT YOUR KEY>
     private var cancellableSet: Set<AnyCancellable> = []
     
     func load(latitude: Float, longitude: Float) {
+        
         let decoder = JSONDecoder()
         decoder.dateDecodingStrategy = .secondsSince1970
         
@@ -164,6 +164,7 @@ struct ContentView: View {
                     List(weatherService.forecast) {
                         WeatherRow(weather: $0)
                     }
+                    .listStyle(.plain)
                 }
             }
         }
