@@ -2,7 +2,7 @@
 //  GithubUsersApp.swift
 //  GithubUsers
 //
-//  Created by Giordano Scalzo on 06/08/2021.
+//  Created by Giordano Scalzo on 04/08/2021.
 //
 
 import SwiftUI
