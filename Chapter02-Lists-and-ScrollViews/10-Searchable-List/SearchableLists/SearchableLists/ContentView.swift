@@ -10,14 +10,14 @@ import SwiftUI
 struct ContentView: View {
     @State private var searchText=""
     let messages = [
-        "dad can you lend me money",
-        "nada. Does money grows on trees",
+        "Dad, can you lend me money?",
+        "Nada. Does money grow on trees?",
         "What is money made out of?",
-        "Paper?",
-        "Where does paper come from",
-        "huh.....",
-        
+        "Paper",
+        "Where does paper come from?",
+        "Huh.....",
         ]
+
     var body: some View {
         NavigationView {
             List{

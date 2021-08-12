@@ -7,6 +7,19 @@
 
 import SwiftUI
 
+struct ListRow: View {
+    let id: Int
+    let type: String
+    init(id: Int, type: String){
+        print("Loading \(type) item \(id)")
+        self.id = id
+        self.type = type
+    }
+    var body: some View {
+        Text("\(type) \(id)").padding()
+    }
+}
+
 struct ContentView: View {
     var body: some View {
         VStack{
@@ -28,18 +41,7 @@ struct ContentView: View {
     }
 }
 
-struct ListRow: View {
-    let id: Int
-    let type: String
-    init(id: Int, type: String){
-        print("Loading \(type) item \(id)")
-        self.id = id
-        self.type = type
-    }
-    var body: some View {
-        Text("\(type) \(id)").padding()
-    }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
