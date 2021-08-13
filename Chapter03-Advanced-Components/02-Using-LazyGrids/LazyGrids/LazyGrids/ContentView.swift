@@ -1,17 +1,17 @@
 //
 //  ContentView.swift
-//  LazyGrids
+//  UsingLazyGrids
 //
-//  Created by Edgar Nzokwe on 8/2/21.
+//  Created by Edgar Nzokwe on 9/18/20.
 //
 
 import SwiftUI
 
 struct ContentView: View {
-    let columns = [
+    let columnSpec = [
         GridItem(.adaptive(minimum: 100))
     ]
-    let rows = [
+    let rowSpec = [
         GridItem(.flexible()),
         GridItem(.flexible()),
         GridItem(.flexible())
@@ -20,7 +20,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ScrollView {
-                LazyVGrid(columns: columns, spacing:20) {
+                LazyVGrid(columns: columnSpec, spacing:20) {
                     ForEach(1...999, id:\.self){ index in
                         Text("Item \(index)")
                             .padding(EdgeInsets(top: 30, leading: 15, bottom: 30, trailing: 15))
@@ -30,7 +30,7 @@ struct ContentView: View {
                 }
             }
             ScrollView(.horizontal) {
-                LazyHGrid(rows: rows, spacing:20) {
+                LazyHGrid(rows: rowSpec, spacing:20) {
                     ForEach(1...999, id:\.self){ index in
                         Text("Item \(index)")
                             .foregroundColor(.white)
@@ -43,7 +43,6 @@ struct ContentView: View {
         }
     }
 }
-
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

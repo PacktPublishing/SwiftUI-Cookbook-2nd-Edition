@@ -6,26 +6,29 @@
 //
 
 import SwiftUI
-
+struct characterInfo: Identifiable {
+    var name: String
+    var id: Int
+}
 struct ContentView: View {
-    let imageNames = [
-        ImageStore(name:"a.circle.fill",id:0),
-        ImageStore(name:"b.circle.fill",id:1),
-        ImageStore(name:"c.circle.fill",id:2),
-        ImageStore(name:"d.circle.fill",id:3),
-        ImageStore(name:"e.circle.fill",id:4),
-        ImageStore(name:"f.circle.fill",id:5),
-        ImageStore(name:"g.circle.fill",id:6),
-        ImageStore(name:"h.circle.fill",id:7),
-        ImageStore(name:"i.circle.fill",id:8),
-        ImageStore(name:"j.circle.fill",id:9),
-        ImageStore(name:"k.circle.fill",id:10),
-        ImageStore(name:"l.circle.fill",id:11),
-        ImageStore(name:"m.circle.fill",id:12),
-        ImageStore(name:"n.circle.fill",id:13),
-        ImageStore(name:"o.circle.fill",id:14),
-        ImageStore(name:"p.circle.fill",id:15),
-        ImageStore(name:"q.circle.fill",id:16),
+    let charArray = [
+        characterInfo(name:"a.circle.fill",id:0),
+        characterInfo(name:"b.circle.fill",id:1),
+        characterInfo(name:"c.circle.fill",id:2),
+        characterInfo(name:"d.circle.fill",id:3),
+        characterInfo(name:"e.circle.fill",id:4),
+        characterInfo(name:"f.circle.fill",id:5),
+        characterInfo(name:"g.circle.fill",id:6),
+        characterInfo(name:"h.circle.fill",id:7),
+        characterInfo(name:"i.circle.fill",id:8),
+        characterInfo(name:"j.circle.fill",id:9),
+        characterInfo(name:"k.circle.fill",id:10),
+        characterInfo(name:"l.circle.fill",id:11),
+        characterInfo(name:"m.circle.fill",id:12),
+        characterInfo(name:"n.circle.fill",id:13),
+        characterInfo(name:"o.circle.fill",id:14),
+        characterInfo(name:"p.circle.fill",id:15),
+        characterInfo(name:"q.circle.fill",id:16),
     ]
     var body: some View {
         ScrollView {
@@ -35,7 +38,7 @@ struct ContentView: View {
                 }
                 .padding()
                 .background(Color.yellow)
-                ForEach(imageNames){ image in
+                ForEach(charArray){ image in
                     Image(systemName: image.name)
                         .id(image.id)
                         .font(.largeTitle)
@@ -54,10 +57,7 @@ struct ContentView: View {
         }
     }
 }
-struct ImageStore: Identifiable {
-    var name: String
-    var id: Int
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
