@@ -7,15 +7,12 @@
 
 import Foundation
 
-enum Priority: Comparable{
-    
-    case low
-    case medium
+enum Priority:Comparable{
     case high
-    
+    case medium
+    case low
 }
 struct Task: Identifiable{
-
     var id = UUID()
     var completed:Bool
     var description:String
