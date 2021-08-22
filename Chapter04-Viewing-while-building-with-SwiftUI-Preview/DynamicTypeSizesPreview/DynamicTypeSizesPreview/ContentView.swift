@@ -20,9 +20,9 @@ struct ContentView_Previews: PreviewProvider {
         Group {
             ContentView()
             ContentView()
-                .environment(\.sizeCategory, .extraSmall)
+                .environment(\.dynamicTypeSize, .xSmall)
             ContentView()
-            .environment(\.sizeCategory, .accessibilityExtraExtraExtraLarge)
+                .environment(\.dynamicTypeSize, .accessibility5)
         }.previewLayout(.sizeThatFits)
     }
 }
