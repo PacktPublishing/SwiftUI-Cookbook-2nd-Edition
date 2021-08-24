@@ -6,33 +6,29 @@
 //
 
 import UIKit
+import SwiftUI
+
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        let label = UILabel(frame: CGRect(x: 0, y: 0, width: 300, height: 21))
+        label.center = CGPoint(x: 160, y: 285)
+        label.textAlignment = .center
+        label.text = "Previewing UIKit Views"
+        label.font = UIFont.systemFont(ofSize: 20)
+        self.view.addSubview(label)
     }
 
 
 }
 
-#if canImport(SwiftUI) && DEBUG
-import SwiftUI
-struct MainViewRepresentable: UIViewRepresentable {
-    func makeUIView(context: Context) -> UIView {
-        return UIStoryboard(name: "Main", bundle: Bundle.main).instantiateInitialViewController()!.view
-    }
-    
-    func updateUIView(_ view: UIView, context: Context) {
-        
-    }
-}
-
-@available(iOS 13.0, *)
-struct MainViewController_Preview: PreviewProvider {
+struct ViewController_Preview: PreviewProvider {
     static var previews: some View {
-        MainViewRepresentable()
+        ViewControllerPreview {
+            ViewController()
+        }
     }
 }
-#endif
