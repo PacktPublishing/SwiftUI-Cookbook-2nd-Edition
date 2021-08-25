@@ -104,5 +104,8 @@ iOSInjectionProject/
 **/xcshareddata/WorkspaceSettings.xcsettings
 *.xcuserstate
 
+## Firebase config
+GoogleService-Info.plist
+
 # End of https://www.toptal.com/developers/gitignore/api/xcode,swift
 
