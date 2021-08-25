@@ -12,39 +12,34 @@ class RemoteConfig: ObservableObject {
     @Published
     var activeScreen = "screenA"
 
-    private var remoteConfig: Firebase.RemoteConfig {
-        Firebase.RemoteConfig.remoteConfig()
-    }
+    private var remoteConfig = Firebase.RemoteConfig.remoteConfig()
 
     init() {
         // Configure in developer mode
         let settings = RemoteConfigSettings()
         settings.minimumFetchInterval = 0
         remoteConfig.configSettings = settings
-        refreshConfig()
     }
 
-    private func refreshConfig() {
-        let expirationDuration = 1
-        remoteConfig.fetch(withExpirationDuration: TimeInterval(expirationDuration)) { [weak self] (status, error) -> Void in
-            guard status == .success else {
-                return
-            }
-            self?.remoteConfig.fetchAndActivate {  _, _ in
-                DispatchQueue.main.async {
-                    self?.setProperties()
-                }
-            }
+   func refreshConfig() async {
+        guard let status = try? await remoteConfig.fetch(withExpirationDuration: 1) else {
+            return
         }
+        
+        guard case .success = status else {
+            return
+        }
+        
+        await update()
     }
-
-    private func setProperties() {
+    
+    @MainActor func update()  {
         activeScreen = remoteConfig["screenType"].stringValue ?? "screenA"
     }
 }
 
 struct ContentView: View {
-    @ObservedObject
+    @StateObject
     private var remoteConfig = RemoteConfig()
 
     var body: some View {
@@ -58,6 +53,9 @@ struct ContentView: View {
                 Text("B")
                     .font(.system(size: 100))
             }
+        }
+        .task {
+            await remoteConfig.refreshConfig()
         }
     }
 }

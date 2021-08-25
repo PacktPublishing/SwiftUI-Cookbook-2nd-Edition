@@ -11,7 +11,6 @@
 		EE3A1CDB26D62BAB00FA5FCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3A1CDA26D62BAB00FA5FCD /* ContentView.swift */; };
 		EE3A1CDD26D62BAC00FA5FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3A1CDC26D62BAC00FA5FCD /* Assets.xcassets */; };
 		EE3A1CE026D62BAC00FA5FCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3A1CDF26D62BAC00FA5FCD /* Preview Assets.xcassets */; };
-		EE3A1CEB26D62F9600FA5FCD /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = EE3A1CEA26D62F9600FA5FCD /* FirebaseRemoteConfig */; };
 		EE3A1CED26D632F600FA5FCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE3A1CEC26D632F600FA5FCD /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE3A1CEB26D62F9600FA5FCD /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +87,6 @@
 			);
 			name = RemoteConfig;
 			packageProductDependencies = (
-				EE3A1CEA26D62F9600FA5FCD /* FirebaseRemoteConfig */,
 			);
 			productName = RemoteConfig;
 			productReference = EE3A1CD526D62BAB00FA5FCD /* RemoteConfig.app */;
@@ -120,7 +117,6 @@
 			);
 			mainGroup = EE3A1CCC26D62BAB00FA5FCD;
 			packageReferences = (
-				EE3A1CE926D62F9600FA5FCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = EE3A1CD626D62BAB00FA5FCD /* Products */;
 			projectDirPath = "";
@@ -288,7 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +313,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -353,25 +349,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		EE3A1CE926D62F9600FA5FCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		EE3A1CEA26D62F9600FA5FCD /* FirebaseRemoteConfig */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = EE3A1CE926D62F9600FA5FCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseRemoteConfig;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE3A1CCD26D62BAB00FA5FCD /* Project object */;
 }
