@@ -12,6 +12,7 @@
 		EE3A1CDD26D62BAC00FA5FCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3A1CDC26D62BAC00FA5FCD /* Assets.xcassets */; };
 		EE3A1CE026D62BAC00FA5FCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3A1CDF26D62BAC00FA5FCD /* Preview Assets.xcassets */; };
 		EE3A1CED26D632F600FA5FCD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EE3A1CEC26D632F600FA5FCD /* GoogleService-Info.plist */; };
+		EE3A1CF026D6979D00FA5FCD /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = EE3A1CEF26D6979D00FA5FCD /* FirebaseRemoteConfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE3A1CF026D6979D00FA5FCD /* FirebaseRemoteConfig in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +89,7 @@
 			);
 			name = RemoteConfig;
 			packageProductDependencies = (
+				EE3A1CEF26D6979D00FA5FCD /* FirebaseRemoteConfig */,
 			);
 			productName = RemoteConfig;
 			productReference = EE3A1CD526D62BAB00FA5FCD /* RemoteConfig.app */;
@@ -117,6 +120,7 @@
 			);
 			mainGroup = EE3A1CCC26D62BAB00FA5FCD;
 			packageReferences = (
+				EE3A1CEE26D6979D00FA5FCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = EE3A1CD626D62BAB00FA5FCD /* Products */;
 			projectDirPath = "";
@@ -349,6 +353,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE3A1CEE26D6979D00FA5FCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE3A1CEF26D6979D00FA5FCD /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE3A1CEE26D6979D00FA5FCD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE3A1CCD26D62BAB00FA5FCD /* Project object */;
 }
