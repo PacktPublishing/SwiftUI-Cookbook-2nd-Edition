@@ -13,34 +13,38 @@ struct NewNote: View {
     private var title: String = ""
     @State
     private var bodyText: String = ""
-
+    
     @Binding
     var isNewNotePresented: Bool
-
+    @Binding
+    var notes: [Note]
+    
     var repository: NotesRepository
-
+    
     var body: some View {
         NavigationView {
             VStack(spacing: 12) {
                 TextField("Title", text: $title)
                     .padding(4)
-                    .border(Color.gray)
+                    .border(.gray)
                 TextEditor(text: $bodyText)
-                    .border(Color.gray)
+                    .border(.gray)
             }
             .padding(32)
             .navigationBarTitle("New Note", displayMode: .inline)
             .navigationBarItems(trailing:
-                Button {
-                    repository.newNote(title: title,
-                                            date: Date(),
-                                            body: bodyText)
-                    isNewNotePresented.toggle()
-                } label: {
-                    Image(systemName: "checkmark")
-                        .font(.headline)
+                                    Button {
+                Task {
+                    notes = await repository.newNote(title: title,
+                                                     date: Date(),
+                                                     body: bodyText)
                 }
-                .disabled(title.isEmpty)
+                isNewNotePresented.toggle()
+            } label: {
+                Image(systemName: "checkmark")
+                    .font(.headline)
+            }
+                                    .disabled(title.isEmpty)
             )
         }
     }

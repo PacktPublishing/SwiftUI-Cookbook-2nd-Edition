@@ -16,7 +16,7 @@ struct ShowNote: View {
                 .font(.headline)
                 .fontWeight(.bold)
             ReadonlyTextEditor(text: note.body)
-                .border(Color.gray)
+                .border(.gray)
         }
         .padding(32)
     }

@@ -7,55 +7,28 @@
 
 import Foundation
 import Firebase
+import FirebaseFirestoreSwift
 
-class NotesRepository: ObservableObject {
-    @Published
-    var notes: [Note] = []
-
-    private let db = Firestore.firestore()
-
-    init() {
-        loadAll()
+struct NotesRepository {
+    private let dbCollection = Firestore.firestore().collection("notes")
+    
+    func newNote(title: String, date: Date, body: String) async -> [Note] {
+        let note = Note(id: UUID().uuidString, title: title, date: date, body: body)
+        _ = try? dbCollection.addDocument(from: note)
+        return await fetchNotes()
     }
-
-    func newNote(title: String, date: Date, body: String) {
-        db.collection("notes").addDocument(data: [
-            "title": title,
-            "date": date,
-            "body": body,
-        ])
-
-        loadAll()
-    }
-
-    func remove(at index: Int) {
-        let noteToDelete = notes[index]
-        db.collection("notes").document(noteToDelete.id).delete()
-        loadAll()
-    }
-
-    private func loadAll() {
-        db.collection("notes").getDocuments { (snapshot, error) in
-            if let error = error {
-                print(error) // manage errors
-                return
-            }
-            guard let documents = snapshot?.documents else {
-                return
-            }
-
-            self.notes = documents.compactMap { document in
-                let data = document.data()
-                guard let title = data["title"] as? String,
-                    let timestamp = data["date"] as? Timestamp,
-                    let body = data["body"] as? String else {
-                        return nil
-                }
-                return Note(id: document.documentID,
-                            title: title,
-                            date: timestamp.dateValue(),
-                            body: body)
-            }
+    
+    func fetchNotes() async -> [Note] {
+        guard let snapshot = try? await dbCollection.getDocuments() else {
+            return []
+        }
+        
+        let notes: [Note] = snapshot.documents.compactMap { document in
+            try? document.data(as: Note.self)
+        }
+        
+        return notes.sorted {
+            $0.date < $1.date
         }
     }
 }
