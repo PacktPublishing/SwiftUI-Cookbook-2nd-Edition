@@ -15,8 +15,8 @@
 		EE18EE4D26D7FBF6003EBECE /* NotesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18EE4C26D7FBF6003EBECE /* NotesRepository.swift */; };
 		EE18EE4F26D7FC1D003EBECE /* NewNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18EE4E26D7FC1D003EBECE /* NewNote.swift */; };
 		EE18EE5126D7FC39003EBECE /* ShowNote.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18EE5026D7FC39003EBECE /* ShowNote.swift */; };
-		EE18EE5426D8040D003EBECE /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EE18EE5326D8040D003EBECE /* FirebaseFirestore */; };
-		EE18EE5626D8040D003EBECE /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EE18EE5526D8040D003EBECE /* FirebaseFirestoreSwift-Beta */; };
+		EE43FA5626DD5C7E0061D80B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EE43FA5526DD5C7E0061D80B /* FirebaseFirestore */; };
+		EE43FA5826DD5C7E0061D80B /* FirebaseFirestoreSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = EE43FA5726DD5C7E0061D80B /* FirebaseFirestoreSwift-Beta */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE18EE5426D8040D003EBECE /* FirebaseFirestore in Frameworks */,
-				EE18EE5626D8040D003EBECE /* FirebaseFirestoreSwift-Beta in Frameworks */,
+				EE43FA5626DD5C7E0061D80B /* FirebaseFirestore in Frameworks */,
+				EE43FA5826DD5C7E0061D80B /* FirebaseFirestoreSwift-Beta in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			);
 			name = FirebaseNotes;
 			packageProductDependencies = (
-				EE18EE5326D8040D003EBECE /* FirebaseFirestore */,
-				EE18EE5526D8040D003EBECE /* FirebaseFirestoreSwift-Beta */,
+				EE43FA5526DD5C7E0061D80B /* FirebaseFirestore */,
+				EE43FA5726DD5C7E0061D80B /* FirebaseFirestoreSwift-Beta */,
 			);
 			productName = FirebaseNotes;
 			productReference = EE18EE3426D7FACF003EBECE /* FirebaseNotes.app */;
@@ -132,7 +132,7 @@
 			);
 			mainGroup = EE18EE2B26D7FACF003EBECE;
 			packageReferences = (
-				EE18EE5226D8040D003EBECE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				EE43FA5426DD5C7E0061D80B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = EE18EE3526D7FACF003EBECE /* Products */;
 			projectDirPath = "";
@@ -370,7 +370,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EE18EE5226D8040D003EBECE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+		EE43FA5426DD5C7E0061D80B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
 			requirement = {
@@ -381,14 +381,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EE18EE5326D8040D003EBECE /* FirebaseFirestore */ = {
+		EE43FA5526DD5C7E0061D80B /* FirebaseFirestore */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE18EE5226D8040D003EBECE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EE43FA5426DD5C7E0061D80B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseFirestore;
 		};
-		EE18EE5526D8040D003EBECE /* FirebaseFirestoreSwift-Beta */ = {
+		EE43FA5726DD5C7E0061D80B /* FirebaseFirestoreSwift-Beta */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE18EE5226D8040D003EBECE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			package = EE43FA5426DD5C7E0061D80B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = "FirebaseFirestoreSwift-Beta";
 		};
 /* End XCSwiftPackageProductDependency section */

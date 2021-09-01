@@ -45,7 +45,9 @@ struct GoogleLogin: UIViewRepresentable {
         
         let button = GIDSignInButton()
         
-        button.addTarget(context.coordinator, action: #selector(Coordinator.action(sender:)), for: .touchUpInside)
+        button.addTarget(context.coordinator,
+                         action: #selector(Coordinator.action(sender:)),
+                         for: .touchUpInside)
         
         return button
     }
