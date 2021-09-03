@@ -15,14 +15,14 @@ struct ContentView: View {
         ]
     )
     var contacts: FetchedResults<Contact>
-
+    
     var body: some View {
         List(contacts, id: \.self) { contact in
             HStack {
-            Text(contact.firstName ?? "-")
-            Text(contact.lastName ?? "-")
-            Spacer()
-            Text(contact.phoneNumber ?? "-")
+                Text(contact.firstName ?? "-")
+                Text(contact.lastName ?? "-")
+                Spacer()
+                Text(contact.phoneNumber ?? "-")
             }
         }
         .listStyle(.plain)
