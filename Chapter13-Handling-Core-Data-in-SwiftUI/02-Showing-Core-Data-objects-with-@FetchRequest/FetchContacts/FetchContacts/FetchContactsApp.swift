@@ -19,7 +19,6 @@ struct FetchContactsApp: App {
                 .onAppear {
                     addContacts(to: coreDataStack.managedObjectContext)
                 }
-        }
-        
+        }        
     }
 }

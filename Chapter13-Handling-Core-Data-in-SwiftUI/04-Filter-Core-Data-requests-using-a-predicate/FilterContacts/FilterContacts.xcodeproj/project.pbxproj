@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE7D681B26DFFD6700B7F2B0 /* FetchContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D681A26DFFD6700B7F2B0 /* FetchContactsApp.swift */; };
-		EE7D681D26DFFD6700B7F2B0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D681C26DFFD6700B7F2B0 /* ContentView.swift */; };
-		EE7D681F26DFFD6800B7F2B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7D681E26DFFD6800B7F2B0 /* Assets.xcassets */; };
-		EE7D682226DFFD6800B7F2B0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7D682126DFFD6800B7F2B0 /* Preview Assets.xcassets */; };
-		EE7D682926DFFD8E00B7F2B0 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D682826DFFD8E00B7F2B0 /* CoreDataStack.swift */; };
-		EE7D682C26DFFDD900B7F2B0 /* ContactsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE7D682A26DFFDD900B7F2B0 /* ContactsModel.xcdatamodeld */; };
-		EE7D682E26DFFE7600B7F2B0 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7D682D26DFFE7600B7F2B0 /* Contacts.swift */; };
+		EE20D62126E296A7004752F6 /* FilterContactsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D62026E296A7004752F6 /* FilterContactsApp.swift */; };
+		EE20D62326E296A7004752F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D62226E296A7004752F6 /* ContentView.swift */; };
+		EE20D62526E296A8004752F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20D62426E296A8004752F6 /* Assets.xcassets */; };
+		EE20D62826E296A8004752F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE20D62726E296A8004752F6 /* Preview Assets.xcassets */; };
+		EE20D63326E29748004752F6 /* ContactsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE20D63026E29748004752F6 /* ContactsModel.xcdatamodeld */; };
+		EE20D63426E29748004752F6 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D63226E29748004752F6 /* CoreDataStack.swift */; };
+		EE20D63626E297AE004752F6 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE20D63526E297AE004752F6 /* Contacts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE7D681726DFFD6700B7F2B0 /* FetchContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE7D681A26DFFD6700B7F2B0 /* FetchContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchContactsApp.swift; sourceTree = "<group>"; };
-		EE7D681C26DFFD6700B7F2B0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE7D681E26DFFD6800B7F2B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE7D682126DFFD6800B7F2B0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EE7D682826DFFD8E00B7F2B0 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
-		EE7D682B26DFFDD900B7F2B0 /* FetchContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FetchContactsApp.xcdatamodel; sourceTree = "<group>"; };
-		EE7D682D26DFFE7600B7F2B0 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		EE20D61D26E296A7004752F6 /* FilterContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilterContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE20D62026E296A7004752F6 /* FilterContactsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterContactsApp.swift; sourceTree = "<group>"; };
+		EE20D62226E296A7004752F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE20D62426E296A8004752F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE20D62726E296A8004752F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE20D63126E29748004752F6 /* AddContactsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AddContactsApp.xcdatamodel; sourceTree = "<group>"; };
+		EE20D63226E29748004752F6 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		EE20D63526E297AE004752F6 /* Contacts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE7D681426DFFD6700B7F2B0 /* Frameworks */ = {
+		EE20D61A26E296A7004752F6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,40 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE7D680E26DFFD6700B7F2B0 = {
+		EE20D61426E296A7004752F6 = {
 			isa = PBXGroup;
 			children = (
-				EE7D681926DFFD6700B7F2B0 /* FetchContacts */,
-				EE7D681826DFFD6700B7F2B0 /* Products */,
+				EE20D61F26E296A7004752F6 /* FilterContacts */,
+				EE20D61E26E296A7004752F6 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE7D681826DFFD6700B7F2B0 /* Products */ = {
+		EE20D61E26E296A7004752F6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE7D681726DFFD6700B7F2B0 /* FetchContacts.app */,
+				EE20D61D26E296A7004752F6 /* FilterContacts.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE7D681926DFFD6700B7F2B0 /* FetchContacts */ = {
+		EE20D61F26E296A7004752F6 /* FilterContacts */ = {
 			isa = PBXGroup;
 			children = (
-				EE7D682A26DFFDD900B7F2B0 /* ContactsModel.xcdatamodeld */,
-				EE7D681A26DFFD6700B7F2B0 /* FetchContactsApp.swift */,
-				EE7D681C26DFFD6700B7F2B0 /* ContentView.swift */,
-				EE7D682D26DFFE7600B7F2B0 /* Contacts.swift */,
-				EE7D682826DFFD8E00B7F2B0 /* CoreDataStack.swift */,
-				EE7D681E26DFFD6800B7F2B0 /* Assets.xcassets */,
-				EE7D682026DFFD6800B7F2B0 /* Preview Content */,
+				EE20D63526E297AE004752F6 /* Contacts.swift */,
+				EE20D63026E29748004752F6 /* ContactsModel.xcdatamodeld */,
+				EE20D63226E29748004752F6 /* CoreDataStack.swift */,
+				EE20D62026E296A7004752F6 /* FilterContactsApp.swift */,
+				EE20D62226E296A7004752F6 /* ContentView.swift */,
+				EE20D62426E296A8004752F6 /* Assets.xcassets */,
+				EE20D62626E296A8004752F6 /* Preview Content */,
 			);
-			path = FetchContacts;
+			path = FilterContacts;
 			sourceTree = "<group>";
 		};
-		EE7D682026DFFD6800B7F2B0 /* Preview Content */ = {
+		EE20D62626E296A8004752F6 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EE7D682126DFFD6800B7F2B0 /* Preview Assets.xcassets */,
+				EE20D62726E296A8004752F6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -79,39 +79,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE7D681626DFFD6700B7F2B0 /* FetchContacts */ = {
+		EE20D61C26E296A7004752F6 /* FilterContacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE7D682526DFFD6800B7F2B0 /* Build configuration list for PBXNativeTarget "FetchContacts" */;
+			buildConfigurationList = EE20D62B26E296A8004752F6 /* Build configuration list for PBXNativeTarget "FilterContacts" */;
 			buildPhases = (
-				EE7D681326DFFD6700B7F2B0 /* Sources */,
-				EE7D681426DFFD6700B7F2B0 /* Frameworks */,
-				EE7D681526DFFD6700B7F2B0 /* Resources */,
+				EE20D61926E296A7004752F6 /* Sources */,
+				EE20D61A26E296A7004752F6 /* Frameworks */,
+				EE20D61B26E296A7004752F6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FetchContacts;
-			productName = FetchContacts;
-			productReference = EE7D681726DFFD6700B7F2B0 /* FetchContacts.app */;
+			name = FilterContacts;
+			productName = FilterContacts;
+			productReference = EE20D61D26E296A7004752F6 /* FilterContacts.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE7D680F26DFFD6700B7F2B0 /* Project object */ = {
+		EE20D61526E296A7004752F6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					EE7D681626DFFD6700B7F2B0 = {
+					EE20D61C26E296A7004752F6 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = EE7D681226DFFD6700B7F2B0 /* Build configuration list for PBXProject "FetchContacts" */;
+			buildConfigurationList = EE20D61826E296A7004752F6 /* Build configuration list for PBXProject "FilterContacts" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,45 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = EE7D680E26DFFD6700B7F2B0;
-			productRefGroup = EE7D681826DFFD6700B7F2B0 /* Products */;
+			mainGroup = EE20D61426E296A7004752F6;
+			productRefGroup = EE20D61E26E296A7004752F6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE7D681626DFFD6700B7F2B0 /* FetchContacts */,
+				EE20D61C26E296A7004752F6 /* FilterContacts */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE7D681526DFFD6700B7F2B0 /* Resources */ = {
+		EE20D61B26E296A7004752F6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7D682226DFFD6800B7F2B0 /* Preview Assets.xcassets in Resources */,
-				EE7D681F26DFFD6800B7F2B0 /* Assets.xcassets in Resources */,
+				EE20D62826E296A8004752F6 /* Preview Assets.xcassets in Resources */,
+				EE20D62526E296A8004752F6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE7D681326DFFD6700B7F2B0 /* Sources */ = {
+		EE20D61926E296A7004752F6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7D682926DFFD8E00B7F2B0 /* CoreDataStack.swift in Sources */,
-				EE7D681D26DFFD6700B7F2B0 /* ContentView.swift in Sources */,
-				EE7D681B26DFFD6700B7F2B0 /* FetchContactsApp.swift in Sources */,
-				EE7D682C26DFFDD900B7F2B0 /* ContactsModel.xcdatamodeld in Sources */,
-				EE7D682E26DFFE7600B7F2B0 /* Contacts.swift in Sources */,
+				EE20D62326E296A7004752F6 /* ContentView.swift in Sources */,
+				EE20D63326E29748004752F6 /* ContactsModel.xcdatamodeld in Sources */,
+				EE20D62126E296A7004752F6 /* FilterContactsApp.swift in Sources */,
+				EE20D63426E29748004752F6 /* CoreDataStack.swift in Sources */,
+				EE20D63626E297AE004752F6 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EE7D682326DFFD6800B7F2B0 /* Debug */ = {
+		EE20D62926E296A8004752F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -218,7 +218,7 @@
 			};
 			name = Debug;
 		};
-		EE7D682426DFFD6800B7F2B0 /* Release */ = {
+		EE20D62A26E296A8004752F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,14 +273,14 @@
 			};
 			name = Release;
 		};
-		EE7D682626DFFD6800B7F2B0 /* Debug */ = {
+		EE20D62C26E296A8004752F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FetchContacts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FilterContacts/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -294,7 +294,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.FetchContacts;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.FilterContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -302,14 +302,14 @@
 			};
 			name = Debug;
 		};
-		EE7D682726DFFD6800B7F2B0 /* Release */ = {
+		EE20D62D26E296A8004752F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"FetchContacts/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"FilterContacts/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -323,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.FetchContacts;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.FilterContacts;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,20 +334,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE7D681226DFFD6700B7F2B0 /* Build configuration list for PBXProject "FetchContacts" */ = {
+		EE20D61826E296A7004752F6 /* Build configuration list for PBXProject "FilterContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE7D682326DFFD6800B7F2B0 /* Debug */,
-				EE7D682426DFFD6800B7F2B0 /* Release */,
+				EE20D62926E296A8004752F6 /* Debug */,
+				EE20D62A26E296A8004752F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE7D682526DFFD6800B7F2B0 /* Build configuration list for PBXNativeTarget "FetchContacts" */ = {
+		EE20D62B26E296A8004752F6 /* Build configuration list for PBXNativeTarget "FilterContacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE7D682626DFFD6800B7F2B0 /* Debug */,
-				EE7D682726DFFD6800B7F2B0 /* Release */,
+				EE20D62C26E296A8004752F6 /* Debug */,
+				EE20D62D26E296A8004752F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -355,17 +355,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EE7D682A26DFFDD900B7F2B0 /* ContactsModel.xcdatamodeld */ = {
+		EE20D63026E29748004752F6 /* ContactsModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EE7D682B26DFFDD900B7F2B0 /* FetchContactsApp.xcdatamodel */,
+				EE20D63126E29748004752F6 /* AddContactsApp.xcdatamodel */,
 			);
-			currentVersion = EE7D682B26DFFDD900B7F2B0 /* FetchContactsApp.xcdatamodel */;
+			currentVersion = EE20D63126E29748004752F6 /* AddContactsApp.xcdatamodel */;
 			path = ContactsModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = EE7D680F26DFFD6700B7F2B0 /* Project object */;
+	rootObject = EE20D61526E296A7004752F6 /* Project object */;
 }
