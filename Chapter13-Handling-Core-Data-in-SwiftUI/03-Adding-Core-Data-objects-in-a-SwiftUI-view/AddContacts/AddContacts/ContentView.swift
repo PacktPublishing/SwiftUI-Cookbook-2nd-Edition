@@ -89,7 +89,6 @@ struct AddNewContact: View {
         coreDataStack.insertContact(firstName: firstName,
                        lastName: lastName,
                        phoneNumber: phoneNumber)
-        coreDataStack.save()
         isAddContactPresented.toggle()
     }
 }

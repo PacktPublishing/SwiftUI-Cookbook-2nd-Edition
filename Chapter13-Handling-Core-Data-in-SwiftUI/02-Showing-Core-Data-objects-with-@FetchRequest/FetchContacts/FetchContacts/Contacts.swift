@@ -6,22 +6,8 @@
 //
 
 import Foundation
-import CoreData
 
-extension Contact {
-    static func insert(in context: NSManagedObjectContext,
-                       firstName: String,
-                       lastName: String,
-                       phoneNumber: String) {
-        let contact = Contact(context: context)
-        contact.firstName = firstName
-        contact.lastName = lastName
-        contact.phoneNumber = phoneNumber
-    }
-}
-
-
-func addContacts(to managedObjectContext: NSManagedObjectContext) {
+func addContacts(to coreDataStack: CoreDataStack) {
     guard UserDefaults.standard.bool(forKey: "alreadyRun") == false else {
         return
     }
@@ -49,10 +35,6 @@ func addContacts(to managedObjectContext: NSManagedObjectContext) {
      ("Davos", lastName: "Seaworth", "02079460848"),
      ("Sansa", lastName: "Stark", "02890180764")]
         .forEach { (firstName, lastName, phoneNumber) in
-            Contact.insert(in: managedObjectContext,
-                           firstName: firstName,
-                           lastName: lastName,
-                           phoneNumber: phoneNumber)
+            coreDataStack.insertContact(firstName: firstName, lastName: lastName, phoneNumber: phoneNumber)
     }
-    try? managedObjectContext.save()
 }

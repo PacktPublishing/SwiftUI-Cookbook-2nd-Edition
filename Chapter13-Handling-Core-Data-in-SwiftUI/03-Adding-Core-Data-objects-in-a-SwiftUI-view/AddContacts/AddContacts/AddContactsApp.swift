@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct AddContactsApp: App {
     private let coreDataStack = CoreDataStack(modelName: "ContactsModel")
+    @Environment(\.scenePhase) var scenePhase
     
     var body: some Scene {
         WindowGroup {
@@ -18,6 +19,8 @@ struct AddContactsApp: App {
                 .environment(\.managedObjectContext,
                              coreDataStack.managedObjectContext)
         }
-        
+        .onChange(of: scenePhase) { _ in
+            coreDataStack.save()
+        }
     }
 }

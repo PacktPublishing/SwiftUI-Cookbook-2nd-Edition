@@ -34,4 +34,13 @@ class CoreDataStack {
             print(error)
         }
     }
+    
+    func insertContact(firstName: String,
+                       lastName: String,
+                       phoneNumber: String) {
+        let contact = Contact(context: managedObjectContext)
+        contact.firstName = firstName
+        contact.lastName = lastName
+        contact.phoneNumber = phoneNumber
+    }
 }

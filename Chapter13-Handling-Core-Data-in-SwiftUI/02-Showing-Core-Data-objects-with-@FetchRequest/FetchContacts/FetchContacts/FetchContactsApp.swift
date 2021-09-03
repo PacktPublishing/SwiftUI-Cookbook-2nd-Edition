@@ -10,6 +10,7 @@ import SwiftUI
 @main
 struct FetchContactsApp: App {
     private let coreDataStack = CoreDataStack(modelName: "ContactsModel")
+    @Environment(\.scenePhase) var scenePhase
     
     var body: some Scene {
         WindowGroup {
@@ -17,7 +18,10 @@ struct FetchContactsApp: App {
                 .environment(\.managedObjectContext,
                              coreDataStack.managedObjectContext)
                 .onAppear {
-                    addContacts(to: coreDataStack.managedObjectContext)
+                    addContacts(to: coreDataStack)
+                }
+                .onChange(of: scenePhase) { _ in
+                    coreDataStack.save()
                 }
         }        
     }
