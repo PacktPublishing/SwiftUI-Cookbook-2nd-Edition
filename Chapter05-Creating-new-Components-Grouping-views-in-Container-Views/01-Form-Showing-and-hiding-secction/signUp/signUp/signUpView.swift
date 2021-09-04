@@ -22,11 +22,11 @@ struct signUpView: View {
     var body: some View {
         NavigationView{
             Form{
-                Section(header: Text("Names")){
+                Section("Names"){
                     TextField("First Name", text: $fname)
                     TextField("Last Name" , text: $lname)
                 }
-                Section(header:Text("Current Address")){
+                Section("Current Address"){
                     TextField("Street Address" , text: $street)
                     TextField("City" , text: $city)
                     TextField("Zip" , text: $zip)
@@ -35,7 +35,7 @@ struct signUpView: View {
                     }
                 }
                 if !lessThanTwo{
-                    Section(header:Text("Previous Address")){
+                    Section("Previous Address"){
                         TextField("Street Address" , text: $street)
                         TextField("City" , text: $city)
                         TextField("Zip" , text: $zip)
