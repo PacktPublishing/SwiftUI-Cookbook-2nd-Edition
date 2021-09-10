@@ -24,19 +24,15 @@ struct ContentView: View {
         VStack{
             TextField("Address", text: $streetName)
                 .focused($currentFocus, equals: .streetName)
-                .textContentType(.streetAddressLine1)
                 .submitLabel(.next)
             TextField("City", text: $city)
                 .focused($currentFocus, equals: .city)
-                .textContentType(.addressCity)
                 .submitLabel(.next)
             TextField("State", text: $state)
                 .focused($currentFocus, equals: .state)
-                .textContentType(.addressState)
                 .submitLabel(.next)
             TextField("Zip code", text: $zipCode)
                 .focused($currentFocus, equals: .zipCode)
-                .textContentType(.postalCode)
                 .submitLabel(.done)
         }.onSubmit {
             switch currentFocus {
