@@ -13,7 +13,8 @@ struct ContentView: View {
         Button(action: {
             self.showSubmitAlert=true
         }){
-            Text("Submit")
+
+            Text("Show alert")
                 .padding()
                 .background(Color.blue)
                 .foregroundColor(.white)
