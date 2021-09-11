@@ -11,6 +11,7 @@
 		7A0C728526EBFA7700848DC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0C728426EBFA7700848DC9 /* ContentView.swift */; };
 		7A0C728726EBFA7800848DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C728626EBFA7800848DC9 /* Assets.xcassets */; };
 		7A0C728A26EBFA7800848DC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A0C728926EBFA7800848DC9 /* Preview Assets.xcassets */; };
+		7AAA401D26ED340800420765 /* oldAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA401C26ED340800420765 /* oldAlerts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7A0C728426EBFA7700848DC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A0C728626EBFA7800848DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A0C728926EBFA7800848DC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AAA401C26ED340800420765 /* oldAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldAlerts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7A0C728226EBFA7700848DC9 /* PresentingAlertsApp.swift */,
 				7A0C728426EBFA7700848DC9 /* ContentView.swift */,
+				7AAA401C26ED340800420765 /* oldAlerts.swift */,
 				7A0C728626EBFA7800848DC9 /* Assets.xcassets */,
 				7A0C728826EBFA7800848DC9 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAA401D26ED340800420765 /* oldAlerts.swift in Sources */,
 				7A0C728526EBFA7700848DC9 /* ContentView.swift in Sources */,
 				7A0C728326EBFA7700848DC9 /* PresentingAlertsApp.swift in Sources */,
 			);
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -14,10 +14,11 @@ struct ContentView: View {
     var body: some View {
         Button(displayedText){
             changeText = true
-        }.alert(alertTitle, isPresented: $changeText){ 
+        }.alert(alertTitle, isPresented: $changeText){
             Button("Yea"){
                 displayedText = (displayedText == "Stay Foolish") ? "Stay Hungry" : "Stay Foolish"
             }
+            Button("Do nothing"){}
         }message: {
             Text("Do you want to toggle the text")
         }
