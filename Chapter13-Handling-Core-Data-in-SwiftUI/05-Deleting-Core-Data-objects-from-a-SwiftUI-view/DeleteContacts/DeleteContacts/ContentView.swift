@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+struct ContactView: View {
+    let contact: Contact
+    var body: some View {
+        HStack {
+            Text(contact.firstName ?? "-")
+            Text(contact.lastName ?? "-")
+            Spacer()
+            Text(contact.phoneNumber ?? "-")
+        }
+    }
+}
+
 struct ContentView: View {
     @Environment(\.managedObjectContext)
     var managedObjectContext
@@ -21,13 +33,8 @@ struct ContentView: View {
     
     var body: some View {
         List {
-            ForEach(contacts, id: \.self) { contact in
-                HStack {
-                    Text(contact.firstName ?? "-")
-                    Text(contact.lastName ?? "-")
-                    Spacer()
-                    Text(contact.phoneNumber ?? "-")
-                }
+            ForEach(contacts, id: \.self) {
+                ContactView(contact: $0)
             }
             .onDelete(perform: deleteContact)
         }

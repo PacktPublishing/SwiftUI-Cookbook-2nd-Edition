@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+struct ContactView: View {
+    let contact: Contact
+    var body: some View {
+        HStack {
+            Text(contact.firstName ?? "-")
+            Text(contact.lastName ?? "-")
+            Spacer()
+            Text(contact.phoneNumber ?? "-")
+        }
+    }
+}
+
 struct ContentView: View {
     @FetchRequest(
         sortDescriptors: [
@@ -23,13 +35,8 @@ struct ContentView: View {
 
     var body: some View {
         NavigationView {
-            List(contacts, id: \.self) { contact in
-                HStack {
-                Text(contact.firstName ?? "-")
-                Text(contact.lastName ?? "-")
-                Spacer()
-                Text(contact.phoneNumber ?? "-")
-                }
+            List(contacts, id: \.self) { 
+                ContactView(contact: $0)
             }
             .listStyle(.plain)
             .navigationBarTitle("Contacts", displayMode: .inline)

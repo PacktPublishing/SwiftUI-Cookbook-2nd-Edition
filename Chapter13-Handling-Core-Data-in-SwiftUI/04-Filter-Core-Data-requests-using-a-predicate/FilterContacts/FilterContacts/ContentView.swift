@@ -7,6 +7,18 @@
 
 import SwiftUI
 
+struct ContactView: View {
+    let contact: Contact
+    var body: some View {
+        HStack {
+            Text(contact.firstName ?? "-")
+            Text(contact.lastName ?? "-")
+            Spacer()
+            Text(contact.phoneNumber ?? "-")
+        }
+    }
+}
+
 struct FilteredContacts: View {
     var fetchRequest: FetchRequest<Contact>
     
@@ -24,13 +36,8 @@ struct FilteredContacts: View {
     }
     
     var body: some View {
-        List(fetchRequest.wrappedValue, id: \.self) { contact in
-            HStack {
-                Text(contact.firstName ?? "-")
-                Text(contact.lastName ?? "-")
-                Spacer()
-                Text(contact.phoneNumber ?? "-")
-            }
+        List(fetchRequest.wrappedValue, id: \.self) {
+            ContactView(contact: $0)
         }
         .listStyle(.plain)
     }
