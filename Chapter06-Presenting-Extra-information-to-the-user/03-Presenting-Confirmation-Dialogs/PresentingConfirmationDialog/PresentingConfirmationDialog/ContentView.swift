@@ -14,8 +14,12 @@ struct ContentView: View {
         Button("Present Confirmation Dialog"){
                 showDialog = true
         }.confirmationDialog(title, isPresented: $showDialog){
-            Button("Dissmiss Dialog"){}
-            Button("Save"){}
+            Button("Dissmiss Dialog"){
+                //Add Dismiss Action here
+            }
+            Button("Save"){
+                //Add Save action here
+            }
             Button("Cancel", role: .cancel){}
             Button("Print something to console"){
                 print("Print button clicked")

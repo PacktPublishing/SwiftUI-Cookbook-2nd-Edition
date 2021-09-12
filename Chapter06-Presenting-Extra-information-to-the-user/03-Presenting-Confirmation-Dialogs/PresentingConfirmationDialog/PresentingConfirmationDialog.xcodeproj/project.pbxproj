@@ -11,6 +11,7 @@
 		7AAA402D26ED5D0500420765 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA402C26ED5D0500420765 /* ContentView.swift */; };
 		7AAA402F26ED5D0700420765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA402E26ED5D0700420765 /* Assets.xcassets */; };
 		7AAA403226ED5D0700420765 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AAA403126ED5D0700420765 /* Preview Assets.xcassets */; };
+		7AAA403926ED662C00420765 /* oldActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AAA403826ED662C00420765 /* oldActionSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7AAA402C26ED5D0500420765 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7AAA402E26ED5D0700420765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7AAA403126ED5D0700420765 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7AAA403826ED662C00420765 /* oldActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = oldActionSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				7AAA402A26ED5D0500420765 /* PresentingConfirmationDialogApp.swift */,
 				7AAA402C26ED5D0500420765 /* ContentView.swift */,
+				7AAA403826ED662C00420765 /* oldActionSheet.swift */,
 				7AAA402E26ED5D0700420765 /* Assets.xcassets */,
 				7AAA403026ED5D0700420765 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AAA403926ED662C00420765 /* oldActionSheet.swift in Sources */,
 				7AAA402D26ED5D0500420765 /* ContentView.swift in Sources */,
 				7AAA402B26ED5D0500420765 /* PresentingConfirmationDialogApp.swift in Sources */,
 			);
