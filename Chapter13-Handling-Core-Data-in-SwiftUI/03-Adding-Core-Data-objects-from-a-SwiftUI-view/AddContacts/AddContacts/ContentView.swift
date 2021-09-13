@@ -78,7 +78,7 @@ struct AddNewContact: View {
                 Spacer()
             }
             .padding(16)
-            .navigationBarTitle(Text("Add A New Contact"), displayMode: .inline)
+            .navigationTitle("Add A New Contact")
             .navigationBarItems(trailing:
                 Button(action: saveContact) {
                     Image(systemName: "checkmark")

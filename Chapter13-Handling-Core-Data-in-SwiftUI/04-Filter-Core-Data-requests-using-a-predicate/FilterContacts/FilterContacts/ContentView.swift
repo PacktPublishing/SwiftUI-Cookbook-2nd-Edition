@@ -20,7 +20,7 @@ struct ContactView: View {
 }
 
 struct FilteredContacts: View {
-    var fetchRequest: FetchRequest<Contact>
+    let fetchRequest: FetchRequest<Contact>
     
     init(filter: String) {
         let predicate: NSPredicate? = filter.isEmpty ?
