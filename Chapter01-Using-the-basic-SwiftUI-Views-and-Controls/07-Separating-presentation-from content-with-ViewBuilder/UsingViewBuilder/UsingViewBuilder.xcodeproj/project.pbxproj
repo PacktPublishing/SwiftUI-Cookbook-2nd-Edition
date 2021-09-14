@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3870B926F1657A0045EB62 /* BlueCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3870B826F1657A0045EB62 /* BlueCircle.swift */; };
 		7A6C2CF226A4734F0082D85A /* UsingViewBuilderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2CF126A4734F0082D85A /* UsingViewBuilderApp.swift */; };
 		7A6C2CF426A4734F0082D85A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2CF326A4734F0082D85A /* ContentView.swift */; };
 		7A6C2CF626A473500082D85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C2CF526A473500082D85A /* Assets.xcassets */; };
 		7A6C2CF926A473500082D85A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C2CF826A473500082D85A /* Preview Assets.xcassets */; };
-		7A6C2D0026A473740082D85A /* BlueCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2CFF26A473740082D85A /* BlueCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3870B826F1657A0045EB62 /* BlueCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueCircle.swift; sourceTree = "<group>"; };
 		7A6C2CEE26A4734F0082D85A /* UsingViewBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingViewBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6C2CF126A4734F0082D85A /* UsingViewBuilderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingViewBuilderApp.swift; sourceTree = "<group>"; };
 		7A6C2CF326A4734F0082D85A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A6C2CF526A473500082D85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6C2CF826A473500082D85A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A6C2CFF26A473740082D85A /* BlueCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlueCircle.swift; path = "../../../../../Old_SwiftUI-Cookbook/Chapter01 - Using the basic SwiftUI Views and Controls/07 - Separating presentation  from content with ViewBuilder/ViewBuilderApp/BlueCircle.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				7A6C2CF126A4734F0082D85A /* UsingViewBuilderApp.swift */,
 				7A6C2CF326A4734F0082D85A /* ContentView.swift */,
-				7A6C2CFF26A473740082D85A /* BlueCircle.swift */,
+				7A3870B826F1657A0045EB62 /* BlueCircle.swift */,
 				7A6C2CF526A473500082D85A /* Assets.xcassets */,
 				7A6C2CF726A473500082D85A /* Preview Content */,
 			);
@@ -140,7 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A6C2D0026A473740082D85A /* BlueCircle.swift in Sources */,
+				7A3870B926F1657A0045EB62 /* BlueCircle.swift in Sources */,
 				7A6C2CF426A4734F0082D85A /* ContentView.swift in Sources */,
 				7A6C2CF226A4734F0082D85A /* UsingViewBuilderApp.swift in Sources */,
 			);
