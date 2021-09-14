@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3870BB26F168E20045EB62 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3870BA26F168E20045EB62 /* ActivityIndicator.swift */; };
 		7A6C2D2826A4CE340082D85A /* UIKitToSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2D2726A4CE340082D85A /* UIKitToSwiftUIApp.swift */; };
 		7A6C2D2A26A4CE340082D85A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2D2926A4CE340082D85A /* ContentView.swift */; };
 		7A6C2D2C26A4CE350082D85A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C2D2B26A4CE350082D85A /* Assets.xcassets */; };
 		7A6C2D2F26A4CE350082D85A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A6C2D2E26A4CE350082D85A /* Preview Assets.xcassets */; };
-		7A6C2D3626A4CE6D0082D85A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A6C2D3526A4CE6D0082D85A /* ActivityIndicator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3870BA26F168E20045EB62 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		7A6C2D2426A4CE340082D85A /* UIKitToSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitToSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A6C2D2726A4CE340082D85A /* UIKitToSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitToSwiftUIApp.swift; sourceTree = "<group>"; };
 		7A6C2D2926A4CE340082D85A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A6C2D2B26A4CE350082D85A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A6C2D2E26A4CE350082D85A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7A6C2D3526A4CE6D0082D85A /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = "../../../../../Old_SwiftUI-Cookbook/Chapter01 - Using the basic SwiftUI Views and Controls/09 - Integrating UIKIt into SwiftUI/UIkitToSwiftUI/ActivityIndicator.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				7A6C2D2726A4CE340082D85A /* UIKitToSwiftUIApp.swift */,
 				7A6C2D2926A4CE340082D85A /* ContentView.swift */,
-				7A6C2D3526A4CE6D0082D85A /* ActivityIndicator.swift */,
+				7A3870BA26F168E20045EB62 /* ActivityIndicator.swift */,
 				7A6C2D2B26A4CE350082D85A /* Assets.xcassets */,
 				7A6C2D2D26A4CE350082D85A /* Preview Content */,
 			);
@@ -140,8 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A3870BB26F168E20045EB62 /* ActivityIndicator.swift in Sources */,
 				7A6C2D2A26A4CE340082D85A /* ContentView.swift in Sources */,
-				7A6C2D3626A4CE6D0082D85A /* ActivityIndicator.swift in Sources */,
 				7A6C2D2826A4CE340082D85A /* UIKitToSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
