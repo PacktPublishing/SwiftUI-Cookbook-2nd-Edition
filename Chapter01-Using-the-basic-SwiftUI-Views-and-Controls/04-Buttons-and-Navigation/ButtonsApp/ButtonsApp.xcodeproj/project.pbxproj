@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A3870B326F161730045EB62 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3870B226F161730045EB62 /* ButtonView.swift */; };
+		7A3870B526F1619A0045EB62 /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3870B426F1619A0045EB62 /* EditButtonView.swift */; };
+		7A3870B726F161B60045EB62 /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A3870B626F161B60045EB62 /* PasteButtonView.swift */; };
 		7A92EBCB26A2183C00AB787D /* ButtonsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92EBCA26A2183C00AB787D /* ButtonsAppApp.swift */; };
 		7A92EBCD26A2183C00AB787D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92EBCC26A2183C00AB787D /* ContentView.swift */; };
 		7A92EBCF26A2183D00AB787D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A92EBCE26A2183D00AB787D /* Assets.xcassets */; };
 		7A92EBD226A2183D00AB787D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A92EBD126A2183D00AB787D /* Preview Assets.xcassets */; };
 		7A92EBD926A21A9B00AB787D /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92EBD826A21A9B00AB787D /* MenuButtonView.swift */; };
-		7A92EBDB26A21AA400AB787D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92EBDA26A21AA400AB787D /* ButtonView.swift */; };
-		7A92EBDD26A21AB000AB787D /* EditButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92EBDC26A21AB000AB787D /* EditButtonView.swift */; };
-		7A92EBDF26A21AB600AB787D /* PasteButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A92EBDE26A21AB600AB787D /* PasteButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A3870B226F161730045EB62 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		7A3870B426F1619A0045EB62 /* EditButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonView.swift; sourceTree = "<group>"; };
+		7A3870B626F161B60045EB62 /* PasteButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasteButtonView.swift; sourceTree = "<group>"; };
 		7A92EBC726A2183C00AB787D /* ButtonsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ButtonsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A92EBCA26A2183C00AB787D /* ButtonsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsAppApp.swift; sourceTree = "<group>"; };
 		7A92EBCC26A2183C00AB787D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A92EBCE26A2183D00AB787D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A92EBD126A2183D00AB787D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7A92EBD826A21A9B00AB787D /* MenuButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuButtonView.swift; path = "../../../../../Old_SwiftUI-Cookbook/Chapter01 - Using the basic SwiftUI Views and Controls/04 - Buttons and Navigation/ButtonsApp/MenuButtonView.swift"; sourceTree = "<group>"; };
-		7A92EBDA26A21AA400AB787D /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ButtonView.swift; path = "../../../../../Old_SwiftUI-Cookbook/Chapter01 - Using the basic SwiftUI Views and Controls/04 - Buttons and Navigation/ButtonsApp/ButtonView.swift"; sourceTree = "<group>"; };
-		7A92EBDC26A21AB000AB787D /* EditButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EditButtonView.swift; path = "../../../../../Old_SwiftUI-Cookbook/Chapter01 - Using the basic SwiftUI Views and Controls/04 - Buttons and Navigation/ButtonsApp/EditButtonView.swift"; sourceTree = "<group>"; };
-		7A92EBDE26A21AB600AB787D /* PasteButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PasteButtonView.swift; path = "../../../../../Old_SwiftUI-Cookbook/Chapter01 - Using the basic SwiftUI Views and Controls/04 - Buttons and Navigation/ButtonsApp/PasteButtonView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +61,9 @@
 			children = (
 				7A92EBCA26A2183C00AB787D /* ButtonsAppApp.swift */,
 				7A92EBD826A21A9B00AB787D /* MenuButtonView.swift */,
-				7A92EBDA26A21AA400AB787D /* ButtonView.swift */,
-				7A92EBDC26A21AB000AB787D /* EditButtonView.swift */,
-				7A92EBDE26A21AB600AB787D /* PasteButtonView.swift */,
+				7A3870B226F161730045EB62 /* ButtonView.swift */,
+				7A3870B426F1619A0045EB62 /* EditButtonView.swift */,
+				7A3870B626F161B60045EB62 /* PasteButtonView.swift */,
 				7A92EBCC26A2183C00AB787D /* ContentView.swift */,
 				7A92EBCE26A2183D00AB787D /* Assets.xcassets */,
 				7A92EBD026A2183D00AB787D /* Preview Content */,
@@ -151,9 +151,9 @@
 			files = (
 				7A92EBD926A21A9B00AB787D /* MenuButtonView.swift in Sources */,
 				7A92EBCD26A2183C00AB787D /* ContentView.swift in Sources */,
-				7A92EBDF26A21AB600AB787D /* PasteButtonView.swift in Sources */,
-				7A92EBDB26A21AA400AB787D /* ButtonView.swift in Sources */,
-				7A92EBDD26A21AB000AB787D /* EditButtonView.swift in Sources */,
+				7A3870B526F1619A0045EB62 /* EditButtonView.swift in Sources */,
+				7A3870B326F161730045EB62 /* ButtonView.swift in Sources */,
+				7A3870B726F161B60045EB62 /* PasteButtonView.swift in Sources */,
 				7A92EBCB26A2183C00AB787D /* ButtonsAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
