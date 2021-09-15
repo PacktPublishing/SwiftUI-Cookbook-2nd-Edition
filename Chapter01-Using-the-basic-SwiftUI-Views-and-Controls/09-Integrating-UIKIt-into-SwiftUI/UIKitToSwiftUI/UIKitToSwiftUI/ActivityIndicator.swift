@@ -2,11 +2,10 @@
 //  ActivityIndicator.swift
 //  UIKitToSwiftUI
 //
-//  Created by Edgar Nzokwe on 9/14/21.
+//  Created by Edgar Nzokwe on 9/15/21.
 //
 
 import SwiftUI
-
 
 struct ActivityIndicator: UIViewRepresentable {
      var animating: Bool
@@ -23,10 +22,3 @@ struct ActivityIndicator: UIViewRepresentable {
         }
     }
 }
-
-struct ActivityIndicator_Previews: PreviewProvider {
-    static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
-    }
-}
-
