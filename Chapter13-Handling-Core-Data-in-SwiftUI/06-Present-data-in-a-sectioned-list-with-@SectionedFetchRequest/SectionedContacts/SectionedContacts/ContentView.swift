@@ -10,11 +10,7 @@ import SwiftUI
 extension Contact {
     @objc var lastNameInitial: String {
         get {
-            if let initial = lastName?.prefix(1) {
-                return String(initial)
-            } else {
-                return ""
-            }
+            String(lastName?.prefix(1) ?? "")
         }
     }
 }
