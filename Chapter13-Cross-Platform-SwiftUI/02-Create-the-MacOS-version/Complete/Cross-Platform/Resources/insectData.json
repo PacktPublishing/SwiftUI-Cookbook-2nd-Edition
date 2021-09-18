@@ -1,0 +1,58 @@
+[
+  {
+      "id": 1,
+    "imageName": "honeybee",
+    "name": "Honey bee",
+    "habitat": "Tropical climates",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  },
+  {
+      "id": 2,
+    "imageName": "greenbrownfly",
+    "name": "Green Fly",
+    "habitat": "warm and moist climates",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  },
+  {
+      "id": 3,
+    "imageName": "greenbug",
+    "name": "Green bug",
+    "habitat": "orchards and gardens",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  },
+  {
+      "id": 4,
+    "imageName": "blackbeatle",
+    "name": "Black Beatle",
+    "habitat": "Tropical climates",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  },
+  {
+      "id": 5,
+    "imageName": "brownspider",
+    "name": "Brown Spider",
+    "habitat": "warm and moist climates",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  },
+  {
+      "id": 6,
+    "imageName": "bluedragonfly",
+    "name": "Blue Dragonfly",
+    "habitat": "around lakes and streams",
+    "description": "Lorem ipsum dolor sit amet, consecte"
+  },
+  {
+      "id": 7,
+    "imageName": "brownblackbutterfly",
+    "name": "Brown Black Butterfly",
+    "habitat": "deciduous forests",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  },
+  {
+      "id": 8,
+    "imageName": "grasshopper",
+    "name": "Grasshopper",
+    "habitat": "dry open habitat with lots of grass",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id volutpat lacus laoreet non curabitur gravida arcu ac. Felis imperdiet proin fermentum leo vel. Et netus et malesuada fames. Amet nisl suscipit adipiscing bibendum est ultricies integer."
+  }
+]
