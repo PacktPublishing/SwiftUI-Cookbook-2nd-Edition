@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7A6E2E4D26F68C1C00D6C6C9 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7A6E2E4C26F68C1C00D6C6C9 /* insectData.json */; };
 		7ACCC96C26F61F3C00224E41 /* Cross_PlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCC96B26F61F3C00224E41 /* Cross_PlatformApp.swift */; };
 		7ACCC96E26F61F3C00224E41 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCC96D26F61F3C00224E41 /* ContentView.swift */; };
 		7ACCC97026F61F3D00224E41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACCC96F26F61F3D00224E41 /* Assets.xcassets */; };
 		7ACCC97326F61F3D00224E41 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7ACCC97226F61F3D00224E41 /* Preview Assets.xcassets */; };
-		7ACCC97C26F61F9B00224E41 /* insectData.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ACCC97B26F61F9B00224E41 /* insectData.json */; };
 		7ACCC98226F6543B00224E41 /* Insect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCC98126F6543B00224E41 /* Insect.swift */; };
 		7ACCC98526F6661C00224E41 /* InsectCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCC98426F6661C00224E41 /* InsectCellView.swift */; };
 		7ACCC98726F6663500224E41 /* InsectListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACCC98626F6663500224E41 /* InsectListView.swift */; };
@@ -20,12 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7A6E2E4C26F68C1C00D6C6C9 /* insectData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = insectData.json; sourceTree = "<group>"; };
 		7ACCC96826F61F3C00224E41 /* Cross-Platform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cross-Platform.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ACCC96B26F61F3C00224E41 /* Cross_PlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cross_PlatformApp.swift; sourceTree = "<group>"; };
 		7ACCC96D26F61F3C00224E41 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7ACCC96F26F61F3D00224E41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7ACCC97226F61F3D00224E41 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7ACCC97B26F61F9B00224E41 /* insectData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = insectData.json; path = "../../../../../../Old_SwiftUI-Cookbook/Chapter12 - Cross-Platform SwiftUI/01 - Create the initial iOS app/Cross-Platform/Resources/insectData.json"; sourceTree = "<group>"; };
 		7ACCC98126F6543B00224E41 /* Insect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Insect.swift; sourceTree = "<group>"; };
 		7ACCC98426F6661C00224E41 /* InsectCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectCellView.swift; sourceTree = "<group>"; };
 		7ACCC98626F6663500224E41 /* InsectListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsectListView.swift; sourceTree = "<group>"; };
@@ -93,7 +93,7 @@
 		7ACCC97A26F61F6400224E41 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7ACCC97B26F61F9B00224E41 /* insectData.json */,
+				7A6E2E4C26F68C1C00D6C6C9 /* insectData.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -169,7 +169,7 @@
 			files = (
 				7ACCC97326F61F3D00224E41 /* Preview Assets.xcassets in Resources */,
 				7ACCC97026F61F3D00224E41 /* Assets.xcassets in Resources */,
-				7ACCC97C26F61F9B00224E41 /* insectData.json in Resources */,
+				7A6E2E4D26F68C1C00D6C6C9 /* insectData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
