@@ -16,7 +16,7 @@ struct HomeView: View {
                 ForEach(games, id: \.self){ game in
                     Text(game).padding()
                 }
-            }.navigationBarTitle("Best Games for 2020", displayMode: .inline)
+            }.navigationBarTitle("Best Games for 2021", displayMode: .inline)
         }
     }
 }
