@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Insect : Decodable, Identifiable{
+struct Insect : Decodable, Identifiable, Hashable{
     var id: Int
     var imageName:String
     var name:String
