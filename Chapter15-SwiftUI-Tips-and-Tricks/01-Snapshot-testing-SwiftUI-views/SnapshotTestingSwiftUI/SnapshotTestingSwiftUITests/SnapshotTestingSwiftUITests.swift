@@ -23,7 +23,7 @@ class SnapshotTestingSwiftUITests: XCTestCase {
     }
 
     func testContentView() throws {
-        assertSnapshot(matching: ContentView(), as: .image(on: .iPhoneX))
+        assertSnapshot(matching: ContentView(),
+                       as: .image(on: .iPhoneXsMax))
     }
-
 }

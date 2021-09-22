@@ -5,9 +5,9 @@
         "package": "ViewInspector",
         "repositoryURL": "https://github.com/nalexn/ViewInspector",
         "state": {
-          "branch": "0.8.2",
-          "revision": "bea0b7245db290d81c97efd00bdf3bfc5ae2c8db",
-          "version": null
+          "branch": null,
+          "revision": "0d546878902bdde8c4682141f848a9dc44e04ba6",
+          "version": "0.9.0"
         }
       }
     ]

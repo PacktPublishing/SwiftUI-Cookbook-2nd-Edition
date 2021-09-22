@@ -14,7 +14,7 @@
 		EE18965B26F26D8C00240654 /* TestingSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18965A26F26D8C00240654 /* TestingSwiftUITests.swift */; };
 		EE18966526F26D8C00240654 /* TestingSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18966426F26D8C00240654 /* TestingSwiftUIUITests.swift */; };
 		EE18966726F26D8C00240654 /* TestingSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE18966626F26D8C00240654 /* TestingSwiftUIUITestsLaunchTests.swift */; };
-		EE18967526F26E4000240654 /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = EE18967426F26E4000240654 /* ViewInspector */; };
+		EE68C35B26F90C9800B2D06A /* ViewInspector in Frameworks */ = {isa = PBXBuildFile; productRef = EE68C35A26F90C9800B2D06A /* ViewInspector */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE18967526F26E4000240654 /* ViewInspector in Frameworks */,
+				EE68C35B26F90C9800B2D06A /* ViewInspector in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,7 +164,7 @@
 			);
 			name = TestingSwiftUITests;
 			packageProductDependencies = (
-				EE18967426F26E4000240654 /* ViewInspector */,
+				EE68C35A26F90C9800B2D06A /* ViewInspector */,
 			);
 			productName = TestingSwiftUITests;
 			productReference = EE18965626F26D8C00240654 /* TestingSwiftUITests.xctest */;
@@ -221,7 +221,7 @@
 			);
 			mainGroup = EE18963D26F26D8B00240654;
 			packageReferences = (
-				EE18967326F26E4000240654 /* XCRemoteSwiftPackageReference "ViewInspector" */,
+				EE68C35926F90C9800B2D06A /* XCRemoteSwiftPackageReference "ViewInspector" */,
 			);
 			productRefGroup = EE18964726F26D8B00240654 /* Products */;
 			projectDirPath = "";
@@ -611,20 +611,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		EE18967326F26E4000240654 /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
+		EE68C35926F90C9800B2D06A /* XCRemoteSwiftPackageReference "ViewInspector" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/nalexn/ViewInspector";
 			requirement = {
-				branch = 0.8.2;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		EE18967426F26E4000240654 /* ViewInspector */ = {
+		EE68C35A26F90C9800B2D06A /* ViewInspector */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = EE18967326F26E4000240654 /* XCRemoteSwiftPackageReference "ViewInspector" */;
+			package = EE68C35926F90C9800B2D06A /* XCRemoteSwiftPackageReference "ViewInspector" */;
 			productName = ViewInspector;
 		};
 /* End XCSwiftPackageProductDependency section */
