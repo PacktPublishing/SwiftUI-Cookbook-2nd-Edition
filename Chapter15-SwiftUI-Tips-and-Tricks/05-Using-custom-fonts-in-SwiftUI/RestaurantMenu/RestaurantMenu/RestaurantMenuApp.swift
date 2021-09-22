@@ -7,14 +7,10 @@
 
 import SwiftUI
 
-class Current {
-    static var bundle = Bundle(for: Current.self)
-}
-
 @main
 struct RestaurantMenuApp: App {
     private func loadFonts(withExtension ext: String) {
-        let fonts = Current.bundle.urls(forResourcesWithExtension: ext,
+        let fonts = Bundle.main.urls(forResourcesWithExtension: ext,
                                         subdirectory: nil)
         fonts?.forEach { url in
             print(url)
