@@ -15,4 +15,4 @@ struct Insect : Decodable, Identifiable, Hashable{
     var description:String
 }
 
-let testInsect = Insect(id: 1, imageName: "grasshopper", name: "grass", habitat: "pond", description: "long descripiton here")
+let testInsect = Insect(id: 1, imageName: "grasshopper", name: "grass", habitat: "pond", description: "long description here")
