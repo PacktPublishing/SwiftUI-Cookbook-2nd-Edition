@@ -16,7 +16,7 @@ struct ContentView: View {
         .alert("Confirm Actions", isPresented: $showSubmitAlert ){
             Button("OK", role: .cancel){}
         } message: {
-            Text("Are you sure you want to submit the form")
+            Text("Are you sure you want to submit the form?")
         }
     }
 }

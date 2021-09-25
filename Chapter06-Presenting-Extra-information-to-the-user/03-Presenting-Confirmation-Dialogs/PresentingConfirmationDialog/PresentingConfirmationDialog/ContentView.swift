@@ -14,7 +14,7 @@ struct ContentView: View {
         Button("Present Confirmation Dialog"){
                 showDialog = true
         }.confirmationDialog(title, isPresented: $showDialog){
-            Button("Dissmiss Dialog", role: .destructive){
+            Button("Dismiss Dialog", role: .destructive){
                 //Add Dismiss Action here
             }
             Button("Save"){
@@ -26,7 +26,7 @@ struct ContentView: View {
             }
         }message: {
             Text("""
-                Use Diaglos to give users alternatives for completing a task
+                Use Dialogs to give users alternatives for completing a task
                 """
             )
         }
