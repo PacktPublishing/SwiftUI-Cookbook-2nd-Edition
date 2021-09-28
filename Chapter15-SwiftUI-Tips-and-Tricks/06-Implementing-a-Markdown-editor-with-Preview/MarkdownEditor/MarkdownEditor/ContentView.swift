@@ -22,25 +22,36 @@ struct TabButton: View {
     }
 }
 
+struct Tabbar: View {
+    @Binding var text: String
+    var body: some View {
+        HStack {
+            TabButton(label: "**B**") {
+                text+="**"
+            }
+            TabButton(label: "*I*") {
+                text+="*"
+            }
+            TabButton(label: "***B***") {
+                text+="***"
+            }
+            TabButton(label: "~~S~~") {
+                text+="~~"
+            }
+            TabButton(label: "`C`") {
+                text+="`"
+            }
+        }
+    }
+}
+
 struct EditorView: View {
     @Binding var text: String
     var body: some View {
         VStack(alignment: .leading) {
-            HStack {
-                TabButton(label: "**B**") {
-                    text+="**"
-                }
-                TabButton(label: "*I*") {
-                    text+="*"
-                }
-                TabButton(label: "***B***") {
-                    text+="***"
-                }
-                TabButton(label: "~~S~~") {
-                    text+="~~"
-                }
-            }
+            Tabbar(text: $text)
             TextEditor(text: $text)
+                .font(.title)
         }
     }
 }
@@ -50,6 +61,7 @@ struct PreviewView: View {
     var body: some View {
         VStack {
             Text(.init(text))
+                .font(.title)
                 .frame(maxWidth: .infinity, alignment: .leading)
             Spacer()
         }
