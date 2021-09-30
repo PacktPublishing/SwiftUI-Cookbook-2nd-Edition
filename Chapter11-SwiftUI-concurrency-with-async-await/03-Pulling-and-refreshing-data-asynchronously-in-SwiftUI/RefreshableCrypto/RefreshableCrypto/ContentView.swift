@@ -12,12 +12,8 @@ struct ContentView: View {
     @State var coins: [Coin] = []
     
     var body: some View {
-        List(coins) { coin in
-            HStack {
-                Text("\(coin.acronym): \(coin.coinName)")
-                Spacer()
-                LogoView(coin: coin)
-            }
+        List(coins) {
+            CoinView(coin: $0)
         }
         .listStyle(.plain)
         .refreshable {
@@ -28,24 +24,36 @@ struct ContentView: View {
         }
         
     }
-    
-    struct LogoView: View {
-        let coin: Coin
-        var body: some View {
-            AsyncImage(
-                url: URL(string: coin.logo),
-                content: { image in
-                    image.resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: 40, maxHeight: 40)
-                },
-                placeholder: {
-                    ProgressView()
-                }
-            )
+}
+
+struct CoinView: View {
+    let coin: Coin
+    var body: some View {
+        HStack {
+            Text("\(coin.acronym): \(coin.coinName)")
+            Spacer()
+            LogoView(coin: coin)
         }
     }
 }
+
+struct LogoView: View {
+    let coin: Coin
+    var body: some View {
+        AsyncImage(
+            url: URL(string: coin.logo),
+            content: { image in
+                image.resizable()
+                    .aspectRatio(contentMode: .fit)
+                    .frame(maxWidth: 40, maxHeight: 40)
+            },
+            placeholder: {
+                ProgressView()
+            }
+        )
+    }
+}
+
 
 struct Service {
     private let decoder: JSONDecoder = {
