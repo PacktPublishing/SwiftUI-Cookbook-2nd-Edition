@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Lorikeet",
+        "repositoryURL": "https://github.com/gscalzo/Lorikeet",
+        "state": {
+          "branch": null,
+          "revision": "aac5abe9e781f1d0977de9b307648ec4052ad7a2",
+          "version": "0.2.27"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
