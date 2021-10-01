@@ -56,8 +56,10 @@
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "8"
       notificationPayloadFile = "watchOS-Cross-Platform WatchKit Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/watchOS-Cross-Platform">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A5BD21826F73E9800097D09"
@@ -65,7 +67,7 @@
             BlueprintName = "watchOS-Cross-Platform"
             ReferencedContainer = "container:Cross-Platform.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -75,8 +77,10 @@
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "8"
       notificationPayloadFile = "watchOS-Cross-Platform WatchKit Extension/PushNotificationPayload.apns">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.Carousel"
+         RemotePath = "/watchOS-Cross-Platform">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A5BD21826F73E9800097D09"
@@ -84,7 +88,16 @@
             BlueprintName = "watchOS-Cross-Platform"
             ReferencedContainer = "container:Cross-Platform.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7A5BD21826F73E9800097D09"
+            BuildableName = "watchOS-Cross-Platform.app"
+            BlueprintName = "watchOS-Cross-Platform"
+            ReferencedContainer = "container:Cross-Platform.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
