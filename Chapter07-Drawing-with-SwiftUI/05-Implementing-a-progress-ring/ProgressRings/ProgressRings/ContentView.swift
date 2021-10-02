@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ProgressRing: Shape {
     private let startAngle = Angle.radians(1.5 * .pi)
-
+    
     @Binding
     var progress: Double
     
@@ -73,21 +73,22 @@ struct ContentView: View {
     private var progressInternal = 0.5
     
     var body: some View {
-        VStack(spacing: 10) {
-            Spacer()
-                ProgressRingsView(progressExternal: $progressExternal,
-                          progressCentral: $progressCentral,
-                          progressInternal: $progressInternal)
+        ZStack {
+            ProgressRingsView(progressExternal: $progressExternal,
+                              progressCentral: $progressCentral,
+                              progressInternal: $progressInternal)
                 .aspectRatio(contentMode: .fit)
-            Spacer()
-            Slider(value: $progressInternal,
-                   in: 0...1, step: 0.01)
-            Slider(value: $progressCentral,
-                   in: 0...1, step: 0.01)
-            Slider(value: $progressExternal,
-                   in: 0...1, step: 0.01)
+            VStack(spacing: 10) {
+                Spacer()
+                Slider(value: $progressInternal,
+                       in: 0...1, step: 0.01)
+                Slider(value: $progressCentral,
+                       in: 0...1, step: 0.01)
+                Slider(value: $progressExternal,
+                       in: 0...1, step: 0.01)
+            }
+            .padding(30)
         }
-        .padding(30)
     }
 }
 struct ContentView_Previews: PreviewProvider {
