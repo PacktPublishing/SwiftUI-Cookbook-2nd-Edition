@@ -12,8 +12,8 @@ struct ContentView: View {
     var body: some View {
         VStack{
             ScrollView {
-                ForEach(self.letters, id: \.self){ name in
-                        Image(systemName: name)
+                ForEach(self.letters, id: \.self){ letter in
+                        Image(systemName: letter)
                             .font(.largeTitle)
                             .foregroundColor(Color.yellow)
                             .frame(width: 50, height: 50)
@@ -25,8 +25,8 @@ struct ContentView: View {
             
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack{
-                    ForEach(self.letters, id: \.self){ name in
-                        Image(systemName: name)
+                    ForEach(self.letters, id: \.self){ letter in
+                        Image(systemName: letter)
                             .font(.largeTitle)
                             .foregroundColor(Color.yellow)
                             .frame(width: 50, height: 50)
