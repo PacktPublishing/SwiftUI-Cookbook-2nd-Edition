@@ -32,7 +32,7 @@ struct ContentView: View {
                     Text("UK")
                 }
             }
-        .listStyle(GroupedListStyle())
+            .listStyle(.grouped)
             .navigationBarTitle("Continents and Countries", displayMode: .inline)
         }
     }
