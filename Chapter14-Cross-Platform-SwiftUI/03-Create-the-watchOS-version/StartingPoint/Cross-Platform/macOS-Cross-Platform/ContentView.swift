@@ -15,10 +15,12 @@ struct ContentView: View {
             VStack{
                 MacInsectListView(selectedInsect: $selectedInsect)
             }.frame(minWidth: 250, maxWidth: 400)
-            if selectedInsect != nil  {
+            if let selectedInsect = selectedInsect {
                 ScrollView{
-                    InsectDetailView(insect: selectedInsect!)
+                    InsectDetailView(insect: selectedInsect)
                 }
+            }else{
+                EmptyView()
             }
         }
     }
