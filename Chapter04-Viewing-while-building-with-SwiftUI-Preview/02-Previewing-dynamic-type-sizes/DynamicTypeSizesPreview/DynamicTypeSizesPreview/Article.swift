@@ -15,4 +15,4 @@ struct Article {
 }
 
 let sampleArticle1 = Article(imageName: "reading", title: "Love reading", description: "Reading is essential to success")
-let sampleArticle2 = Article(imageName: "naptime", title: "Nap time", description: "Take naps when tired. Improves performance")
+let sampleArticle2 = Article(imageName: "naptime", title: "Nap time", description: "Take naps when tired to improve performance")
