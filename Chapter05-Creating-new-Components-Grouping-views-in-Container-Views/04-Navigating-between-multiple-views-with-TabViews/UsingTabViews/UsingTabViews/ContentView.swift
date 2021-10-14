@@ -11,14 +11,14 @@ struct ContentView: View {
     var body: some View {
         TabView {
             HomeView()
-//                .tabItem{
-//                    Label("Home", systemImage: "house.fill")
-//            }
+                .tabItem{
+                    Label("Home", systemImage: "house.fill")
+            }
             CurrenciesView()
-//                .tabItem{
-//                    Label("Currencies", systemImage: "coloncurrencysign.circle.fill" )
-//            }
-        }.tabViewStyle(.page)
+                .tabItem{
+                    Label("Currencies", systemImage: "coloncurrencysign.circle.fill" )
+            }
+        }
     }
 }
 
