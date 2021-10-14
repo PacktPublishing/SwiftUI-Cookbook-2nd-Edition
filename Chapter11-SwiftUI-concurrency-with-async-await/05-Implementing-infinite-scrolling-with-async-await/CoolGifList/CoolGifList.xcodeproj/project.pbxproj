@@ -7,62 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE86BD6D2706622200D0E942 /* StrongBeerListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86BD6C2706622200D0E942 /* StrongBeerListApp.swift */; };
-		EE86BD6F2706622200D0E942 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE86BD6E2706622200D0E942 /* ContentView.swift */; };
-		EE86BD712706622300D0E942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86BD702706622300D0E942 /* Assets.xcassets */; };
-		EE86BD742706622300D0E942 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE86BD732706622300D0E942 /* Preview Assets.xcassets */; };
+		EE3F8268271603D00037DFEE /* CoolGifListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3F8267271603D00037DFEE /* CoolGifListApp.swift */; };
+		EE3F826A271603D00037DFEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3F8269271603D00037DFEE /* ContentView.swift */; };
+		EE3F826C271603D10037DFEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3F826B271603D10037DFEE /* Assets.xcassets */; };
+		EE3F826F271603D10037DFEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE3F826E271603D10037DFEE /* Preview Assets.xcassets */; };
+		EEE688BC2718A233009197AA /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = EEE688BB2718A233009197AA /* NukeUI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EE86BD692706622200D0E942 /* StrongBeerList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StrongBeerList.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE86BD6C2706622200D0E942 /* StrongBeerListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrongBeerListApp.swift; sourceTree = "<group>"; };
-		EE86BD6E2706622200D0E942 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE86BD702706622300D0E942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE86BD732706622300D0E942 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE3F8264271603D00037DFEE /* CoolGifList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoolGifList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3F8267271603D00037DFEE /* CoolGifListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolGifListApp.swift; sourceTree = "<group>"; };
+		EE3F8269271603D00037DFEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE3F826B271603D10037DFEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE3F826E271603D10037DFEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EE86BD662706622200D0E942 /* Frameworks */ = {
+		EE3F8261271603D00037DFEE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE688BC2718A233009197AA /* NukeUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE86BD602706622200D0E942 = {
+		EE3F825B271603D00037DFEE = {
 			isa = PBXGroup;
 			children = (
-				EE86BD6B2706622200D0E942 /* StrongBeerList */,
-				EE86BD6A2706622200D0E942 /* Products */,
+				EE3F8266271603D00037DFEE /* CoolGifList */,
+				EE3F8265271603D00037DFEE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EE86BD6A2706622200D0E942 /* Products */ = {
+		EE3F8265271603D00037DFEE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EE86BD692706622200D0E942 /* StrongBeerList.app */,
+				EE3F8264271603D00037DFEE /* CoolGifList.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EE86BD6B2706622200D0E942 /* StrongBeerList */ = {
+		EE3F8266271603D00037DFEE /* CoolGifList */ = {
 			isa = PBXGroup;
 			children = (
-				EE86BD6C2706622200D0E942 /* StrongBeerListApp.swift */,
-				EE86BD6E2706622200D0E942 /* ContentView.swift */,
-				EE86BD702706622300D0E942 /* Assets.xcassets */,
-				EE86BD722706622300D0E942 /* Preview Content */,
+				EE3F8267271603D00037DFEE /* CoolGifListApp.swift */,
+				EE3F8269271603D00037DFEE /* ContentView.swift */,
+				EE3F826B271603D10037DFEE /* Assets.xcassets */,
+				EE3F826D271603D10037DFEE /* Preview Content */,
 			);
-			path = StrongBeerList;
+			path = CoolGifList;
 			sourceTree = "<group>";
 		};
-		EE86BD722706622300D0E942 /* Preview Content */ = {
+		EE3F826D271603D10037DFEE /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EE86BD732706622300D0E942 /* Preview Assets.xcassets */,
+				EE3F826E271603D10037DFEE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +72,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EE86BD682706622200D0E942 /* StrongBeerList */ = {
+		EE3F8263271603D00037DFEE /* CoolGifList */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EE86BD772706622300D0E942 /* Build configuration list for PBXNativeTarget "StrongBeerList" */;
+			buildConfigurationList = EE3F8272271603D10037DFEE /* Build configuration list for PBXNativeTarget "CoolGifList" */;
 			buildPhases = (
-				EE86BD652706622200D0E942 /* Sources */,
-				EE86BD662706622200D0E942 /* Frameworks */,
-				EE86BD672706622200D0E942 /* Resources */,
+				EE3F8260271603D00037DFEE /* Sources */,
+				EE3F8261271603D00037DFEE /* Frameworks */,
+				EE3F8262271603D00037DFEE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StrongBeerList;
-			productName = StrongBeerList;
-			productReference = EE86BD692706622200D0E942 /* StrongBeerList.app */;
+			name = CoolGifList;
+			packageProductDependencies = (
+				EEE688BB2718A233009197AA /* NukeUI */,
+			);
+			productName = CoolGifList;
+			productReference = EE3F8264271603D00037DFEE /* CoolGifList.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EE86BD612706622200D0E942 /* Project object */ = {
+		EE3F825C271603D00037DFEE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					EE86BD682706622200D0E942 = {
+					EE3F8263271603D00037DFEE = {
 						CreatedOnToolsVersion = 13.0;
 					};
 				};
 			};
-			buildConfigurationList = EE86BD642706622200D0E942 /* Build configuration list for PBXProject "StrongBeerList" */;
+			buildConfigurationList = EE3F825F271603D00037DFEE /* Build configuration list for PBXProject "CoolGifList" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +115,45 @@
 				en,
 				Base,
 			);
-			mainGroup = EE86BD602706622200D0E942;
-			productRefGroup = EE86BD6A2706622200D0E942 /* Products */;
+			mainGroup = EE3F825B271603D00037DFEE;
+			packageReferences = (
+				EEE688BA2718A233009197AA /* XCRemoteSwiftPackageReference "NukeUI" */,
+			);
+			productRefGroup = EE3F8265271603D00037DFEE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EE86BD682706622200D0E942 /* StrongBeerList */,
+				EE3F8263271603D00037DFEE /* CoolGifList */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EE86BD672706622200D0E942 /* Resources */ = {
+		EE3F8262271603D00037DFEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE86BD742706622300D0E942 /* Preview Assets.xcassets in Resources */,
-				EE86BD712706622300D0E942 /* Assets.xcassets in Resources */,
+				EE3F826F271603D10037DFEE /* Preview Assets.xcassets in Resources */,
+				EE3F826C271603D10037DFEE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EE86BD652706622200D0E942 /* Sources */ = {
+		EE3F8260271603D00037DFEE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE86BD6F2706622200D0E942 /* ContentView.swift in Sources */,
-				EE86BD6D2706622200D0E942 /* StrongBeerListApp.swift in Sources */,
+				EE3F826A271603D00037DFEE /* ContentView.swift in Sources */,
+				EE3F8268271603D00037DFEE /* CoolGifListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EE86BD752706622300D0E942 /* Debug */ = {
+		EE3F8270271603D10037DFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -206,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		EE86BD762706622300D0E942 /* Release */ = {
+		EE3F8271271603D10037DFEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -261,14 +269,14 @@
 			};
 			name = Release;
 		};
-		EE86BD782706622300D0E942 /* Debug */ = {
+		EE3F8273271603D10037DFEE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StrongBeerList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoolGifList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -282,7 +290,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.StrongBeerList;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.CoolGifList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -290,14 +298,14 @@
 			};
 			name = Debug;
 		};
-		EE86BD792706622300D0E942 /* Release */ = {
+		EE3F8274271603D10037DFEE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"StrongBeerList/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CoolGifList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,7 +319,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.StrongBeerList;
+				PRODUCT_BUNDLE_IDENTIFIER = co.uk.effectivecode.CoolGifList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +330,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EE86BD642706622200D0E942 /* Build configuration list for PBXProject "StrongBeerList" */ = {
+		EE3F825F271603D00037DFEE /* Build configuration list for PBXProject "CoolGifList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE86BD752706622300D0E942 /* Debug */,
-				EE86BD762706622300D0E942 /* Release */,
+				EE3F8270271603D10037DFEE /* Debug */,
+				EE3F8271271603D10037DFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EE86BD772706622300D0E942 /* Build configuration list for PBXNativeTarget "StrongBeerList" */ = {
+		EE3F8272271603D10037DFEE /* Build configuration list for PBXNativeTarget "CoolGifList" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EE86BD782706622300D0E942 /* Debug */,
-				EE86BD792706622300D0E942 /* Release */,
+				EE3F8273271603D10037DFEE /* Debug */,
+				EE3F8274271603D10037DFEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EEE688BA2718A233009197AA /* XCRemoteSwiftPackageReference "NukeUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/NukeUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EEE688BB2718A233009197AA /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EEE688BA2718A233009197AA /* XCRemoteSwiftPackageReference "NukeUI" */;
+			productName = NukeUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = EE86BD612706622200D0E942 /* Project object */;
+	rootObject = EE3F825C271603D00037DFEE /* Project object */;
 }

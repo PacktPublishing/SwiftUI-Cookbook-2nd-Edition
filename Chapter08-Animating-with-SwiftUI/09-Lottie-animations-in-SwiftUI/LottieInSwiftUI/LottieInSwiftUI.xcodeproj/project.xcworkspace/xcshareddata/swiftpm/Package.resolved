@@ -2,7 +2,7 @@
   "object": {
     "pins": [
       {
-        "package": "lottie-ios",
+        "package": "Lottie",
         "repositoryURL": "https://github.com/airbnb/lottie-ios",
         "state": {
           "branch": null,

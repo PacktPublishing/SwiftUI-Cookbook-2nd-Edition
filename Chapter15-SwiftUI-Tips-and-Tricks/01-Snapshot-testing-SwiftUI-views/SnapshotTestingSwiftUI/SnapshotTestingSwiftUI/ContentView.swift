@@ -10,8 +10,8 @@ import SwiftUI
 struct ContentView: View {
     let cards: [(title: String, color: Color)] = [
         ("Visa Card", .yellow),
-        ("Mastercard Credit Card", .red),
         ("Apple Credit Card", .black),
+        ("Mastercard Credit Card", .red),
     ]
     var body: some View {
         VStack(spacing: 16) {

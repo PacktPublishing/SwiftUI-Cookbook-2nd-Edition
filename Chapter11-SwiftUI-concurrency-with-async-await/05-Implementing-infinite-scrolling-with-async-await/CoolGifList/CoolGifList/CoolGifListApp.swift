@@ -1,14 +1,14 @@
 //
-//  StrongBeerListApp.swift
-//  StrongBeerList
+//  CoolGifListApp.swift
+//  CoolGifList
 //
-//  Created by Giordano Scalzo on 30/09/2021.
+//  Created by Giordano Scalzo on 12/10/2021.
 //
 
 import SwiftUI
 
 @main
-struct StrongBeerListApp: App {
+struct CoolGifListApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
