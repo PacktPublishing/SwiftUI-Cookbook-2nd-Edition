@@ -47,13 +47,10 @@ With the following software and hardware list you can run all code files present
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781803234458_ColorImages.pdf).
 
 ### Related products
-* Flutter Cookbook  [[Packt]](https://www.packtpub.com/product/flutter-cookbook/9781838823382?utm_source=github&utm_medium=repository&utm_campaign=9781838823382) [[Amazon]](https://www.amazon.com/dp/1-838-82338-7)
+* Flutter Cookbook  [[Packt]](https://www.packtpub.com/product/flutter-cookbook/9781838823382?utm_source=github&utm_medium=repository&utm_campaign=9781838823382) [[Amazon]](https://www.amazon.in/Google-Flutter-Cookbook-techniques-development/dp/1838823387)
 
-* iOS 15 Programming for Beginners - Sixth Edition  [[Packt]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248) [[Amazon]](https://www.amazon.com/dp/1-801-81124-5)
+* iOS 15 Programming for Beginners - Sixth Edition  [[Packt]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248) [[Amazon]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248)
 
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
-
-*  [[Packt]]() [[Amazon]](https://www.amazon.com/dp/)
 
 ## Get to Know the Author
 **Giordano Scalzo**
