@@ -49,7 +49,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ### Related products
 * Flutter Cookbook  [[Packt]](https://www.packtpub.com/product/flutter-cookbook/9781838823382?utm_source=github&utm_medium=repository&utm_campaign=9781838823382) [[Amazon]](https://www.amazon.in/Google-Flutter-Cookbook-techniques-development/dp/1838823387)
 
-* iOS 15 Programming for Beginners - Sixth Edition  [[Packt]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248) [[Amazon]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248)
+* iOS 15 Programming for Beginners - Sixth Edition  [[Packt]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248) [[Amazon]](https://www.amazon.in/iOS-Programming-Beginners-Kickstart-development/dp/1801811245)
 
 
 ## Get to Know the Author
