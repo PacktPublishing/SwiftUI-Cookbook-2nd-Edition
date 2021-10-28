@@ -24,7 +24,7 @@ If you feel this book is for you, get your [copy](https://www.amazon.com/dp/1-80
 alt="https://www.packtpub.com/" border="5" /></a>
 
 ## Instructions and Navigations
-All of the code is organized into folders. For example, Chapter02.
+All of the code is organized into folders. For example, Chapter01.
 
 The code will look like the following:
 ```
@@ -43,9 +43,6 @@ With the following software and hardware list you can run all code files present
 | Chapter | Software required | OS required |
 | -------- | ------------------------------------ | ----------------------------------- |
 | 01-15 | Xcode 13 | Mac OS X |
-|  |  |  |
-|  |  |  |
-|  |  |  |
 
 We also provide a PDF file that has color images of the screenshots/diagrams used in this book. [Click here to download it](https://static.packt-cdn.com/downloads/9781803234458_ColorImages.pdf).
 
@@ -65,24 +62,9 @@ Giordano Scalzo is a developer with 20 years of programming experience, since th
 **Edgar Nzokwe**
 Edgar Nzokwe is a software engineer with 6+ years of experience building web and mobile applications. His areas of expertise include SwiftUI, UIKit, and Kotlin, Python, and a few Javascript frameworks. Edgar is dedicated to advancing the knowledge base of SwiftUI because he believes it empowers developers to design and build dazzling cross-platform apps with minimal development time.
 
-****
-0
-
-****
-0
-
-****
-0
 
 ## Other books by the authors
 [Swift by Example ](https://www.packtpub.com/product/swift-by-example/9781785284700?utm_source=github&utm_medium=repository&utm_campaign=9781785284700)
 
 [SwiftUI Cookbook ](https://www.packtpub.com/product/swiftui-cookbook/9781838981860?utm_source=github&utm_medium=repository&utm_campaign=9781838981860)
-
-[]()
-
-[]()
-
-[]()
-
 
