@@ -52,7 +52,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 * iOS 15 Programming for Beginners - Sixth Edition  [[Packt]](https://www.packtpub.com/product/ios-15-programming-for-beginners-sixth-edition/9781801811248?utm_source=github&utm_medium=repository&utm_campaign=9781801811248) [[Amazon]](https://www.amazon.in/iOS-Programming-Beginners-Kickstart-development/dp/1801811245)
 
 
-## Get to Know the Author
+## Get to Know the Authors
 **Giordano Scalzo** is a developer with 20 years of programming experience, since the days of ZX Spectrum. He has worked in Swift, Objective-C, C/C++, Java, .Net, Ruby, Python, and in a ton of other languages that he has forgotten the names of. After years of backend development, over the past 10 years, Giordano has developed extensively for iOS, releasing more than 20 apps—apps that he wrote for clients, enterprise applications, or on his own. He is currently a Tech Lead Consultant in London, where he leads mobile digital transformations through his company, Effective Code Ltd.
 
 **Edgar Nzokwe** is a software engineer with 6+ years of experience building web and mobile applications. His areas of expertise include SwiftUI, UIKit, and Kotlin, Python, and a few Javascript frameworks. Edgar is dedicated to advancing the knowledge base of SwiftUI because he believes it empowers developers to design and build dazzling cross-platform apps with minimal development time.
