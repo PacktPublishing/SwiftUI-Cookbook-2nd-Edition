@@ -63,3 +63,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 
 [SwiftUI Cookbook ](https://www.packtpub.com/product/swiftui-cookbook/9781838981860?utm_source=github&utm_medium=repository&utm_campaign=9781838981860)
 
+[Hands-On Design Patterns with Swift](https://www.packtpub.com/product/hands-on-design-patterns-with-swift/9781789135565)
+
+[Swift: Developing iOS Applications](https://www.packtpub.com/product/swift-developing-ios-applications/9781787120242)
+
