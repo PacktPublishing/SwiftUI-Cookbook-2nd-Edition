@@ -18,7 +18,7 @@ Add user authentication using Firebase and Sign in with Apple
 Manage concurrency with Combine and async/await in SwiftUI
 Solve the most common SwiftUI problems, such as integrating a MapKit map, unit testing, snapshot testing, and previewing layouts
 
-If you feel this book is for you, get your [copy](https://www.amazon.in/SwiftUI-Cookbook-practice-solving-problems-ebook/dp/B09CHK2LC4) today!
+If you feel this book is for you, get your [copy](https://www.amazon.com/dp/B07741S7Y8?pf_rd_p=1fbf356b-d10c-4f9c-8cf5-b1464d8d6e5b&pf_rd_s=detail-ilm&pf_rd_t=201&pf_rd_i=B09CHK2LC4&pf_rd_m=ATVPDKIKX0DER&pf_rd_r=WJVV618SAD0XJ3J69NWQ&pf_rd_r=WJVV618SAD0XJ3J69NWQ&pf_rd_p=1fbf356b-d10c-4f9c-8cf5-b1464d8d6e5b) today!
 
 <a href="https://www.packtpub.com/?utm_source=github&utm_medium=banner&utm_campaign=GitHubBanner"><img src="https://raw.githubusercontent.com/PacktPublishing/GitHub/master/GitHub.png" 
 alt="https://www.packtpub.com/" border="5" /></a>
