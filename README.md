@@ -49,7 +49,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Errata
 * Page 317 (Pragraph 3, line 8): **@ObserveObject** _should be_ **@ObservedObject**
 * Page 304 (Pragraph 7, line 26): **even it is** _should be_ **even if it is**
-* Page 80 (line 6): **' Text((result)).searchCompletion(result)** _should be_ **Text((result)).searchCompletion(result)**
+* Page 80 (line 5): **' Text((result)).searchCompletion(result)** _should be_ **Text((result)).searchCompletion(result)**
 
 ### Related products
 * Flutter Cookbook  [[Packt]](https://www.packtpub.com/product/flutter-cookbook/9781838823382?utm_source=github&utm_medium=repository&utm_campaign=9781838823382) [[Amazon]](https://www.amazon.in/Google-Flutter-Cookbook-techniques-development/dp/1838823387)
